@@ -1,6 +1,6 @@
 ---
 fileName: Intellectual-framework-2026.09.md
-Last-edited: 2026.09.12.1606.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.09.13.0750.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -9,10 +9,10 @@ title: Intellectual-framework-2026.09
 ---
 This file puts down key contours of my research, teaching, and other professional work.  The intention here is not to train you but for us to build a shared intellectual framework.  
 
-Treat this document as the controlling statement of my current intellectual framework.  Where it conflicts with earlier publications, working papers, talks, syllabi, or other materials, this document takes precedence. Those other sources remain as evidence about the development of my thinking, examples, and arguments I may wish to reuse, and—especially—as evidence of my writing voice.  Past sources, therefore, provide context.  However, statements in this document represent the definitive current working hypotheses. These supersede other formulations unless I explicitly say otherwise.
+**The status of this document**
+Treat this document as the controlling statement of my current intellectual framework.  Where it conflicts with earlier publications, working papers, talks, syllabi, or other materials, this document takes precedence. Those other sources remain as evidence about the development of my thinking, examples, and arguments I may wish to reuse, and—especially—as evidence of my writing voice.  Past sources, therefore, provide context.  However, statements in this document represent the definitive current working hypotheses. These supersede other formulations unless I explicitly say otherwise.  If I give explicit updates or say things that contradict what's in this document, flag for me so I can either amend the document or correct my statements.  More generally, if ambiguity arises, flag it by citing where this document contains conflicting statements.
 
-If ambiguity arises, flag it by citing where this document contains conflicting statements.
-
+**My background**  
 I am an economist, with research work primarily in timeseries econometrics and macroeconomics early in my career (1990s-2000s) but I have since then pivoted to economic analysis of world order (in international relations).
 
 **My writing style and professional reputation**  
@@ -41,6 +41,42 @@ https://www.DannyQuah.com/Storage/PP5182/2026t27/PP5182-syll.pdf
 
 My publications represent explorations that attempt to set down a consistent view.  However, some of these papers will have been composed when my ideas were still coming together: There won't, therefore, be 100% conformity across them.  But the publications are, nonetheless, broadly consistent with an intellectual map that I will continue to refine as both my thinking and writing advance.  
 
+The current organising framework for my research:
+
+| Level | Central proposition |
+| :--- | :--- |
+| Diagnosis | Hegemonic underwriting and rules-based multilateralism are retreating amid geoeconomic conduct and weaponised interdependence |
+| Actors | Third nations, especially small states, cannot reproduce Great-Power statecraft |
+| Mechanism | Incentive compatibility can generate inadvertent cooperation without consensus |
+| Strategy | Economic diplomacy combines Acquiescence, Adaptation and Aggregation |
+| Institutional design | Pathfinder, modular, G-minus and multilateral-enough coalitions make cooperation ordinary |
+| Outcomes | Greater policy space, resilience, prosperity, predictability and peace |
+
+and conceptual vocabulary:
+
+| Concept | Role and Function |
+| :-- | :-- |
+| 3As | Acquiescence.  Adaptation.  Aggregation.   Acquiescence is symbolic yielding on the axis of contention, while quietly building institutions elsewhere.  Adaptation is domestic restructuring for increased resilience.  And aggregation is coalition-building where great power presence is optional. |
+| Aggregation | what Third Nations _do strategically_ to construct or strengthen arrangements across them; coalition-buiding where great power presence is optional. |
+| Epic-fail equilibria | the counterpart of Prisoner's Dilemma outcomes where, instead of the equilibrium being bad for the players but potentially good for society (the bad guy remains imprisoned), in Epic Fail the outcome is always bad for international society: countries going to war for avoidable reasons is an Epic Fail |
+| G-minus | institutions and behaviour remaining functional when Great Powers are not excluded but, at the same time, are also not required |
+| hyper multipolarity | the extreme version of multipolarity where it's not just three or four or five poles of power, but everyone is a pole of power---the distribution is flat |
+| incentive compatibility | the underlying mechanism, where the players' interests align |
+| inadvertent cooperation | the cooperative behaviour/outcome that that mechanism can induce |
+| Middle Power fallacy | the idea that should Great Powers retreat, the Middle Powers can step up and assume the role of benevolent hegemon |
+| modularity | how issue-specific arrangements can be composed |
+| multilateral-enough | in place of traditional multilateralism which implicitly includes universal participation, just three conditions (a) a level playing field; (b) peaceful dispute resolution; (c) cooperation in the face of shared challenges. Jointly, these allow participants to save on inefficient, costly displays of power; lift substantive issues above zero-sum exercises of might and aggression; avoid duplication as each state contributes what it does best, i.e., it allows international meritocracy |
+| pathfinder | how a subset of willing states initiates action |
+| Posen amendment | benevolence in Hegemonic Stability Theory is not a parameter but an endogenous variable, and will change sign when the cost-benefit ratio is sufficiently high. The same concentrated power that stabilized the international system can turn against it.  The example I have in mind is from Posen's 2025 Foreign Affairs article, where he describes the US transitioning from global insurer to extractor of profit |
+| pragmatic multilateralism | the phrasing used by IMF and Prime Minister Lawrence Wong (and others) to denote international engagement that might not permit traditional multilateralism, but flexibly seek to achieve that last's best possible features |
+
+My own version of pragmatic multilateralism: 
+1.  Flexible topology of pathfinder, incentive-compatible, G-minus, multilateral-enough coalitions, held together by inadvertent cooperation rather than sweeping treaties, grand vision, or detailed institutional re-design
+2.  OR (alternative phrasing) "continually-shifting, loosely-structured, open alliances for which hegemonic leadership is optional and whose members cooperate when their interests happen to align".
+3.  To emphasise, these alliances only have to be multilateral-enough; they are supported by inadvertent cooperation rather than by formal treaty or grand vision.
+
+This conceptual vocabulary is relatively distinctive to my work, so I will want to use this language as much as possible, without over-using it to the point of irritation in an audience.
+
 To help identify the different stages of thinking I will, where useful, place tags: [Position] - maintained in the current framework; [Working hypothesis] - promising but needs to be tested; [Open question] - the framework does not prejudge on this.  Tags apply strictly to the clause to which they're attached. Thus, in itemisations, parent tags do not apply to subordinate items.
 
 
@@ -66,42 +102,14 @@ My latest research work the following questions, challenges, and propositions.  
  d. [Working hypothesis] When multilateralism is no longer available, Third Nations should learn to settle on systems that are just *multilateral-enough*.
 6. [Working hypothesis] My work actively considers different possible successor orders to rules-based multilateralism order, For now, however, my leading candidate is a version of what IMF and others call "pragmatic multilateralism".
  a. [Working hypothesis] My rendering of this is a flexible topology of pathfinder, incentive-compatible, G-minus, multilateral-enough coalitions, held together by inadvertent cooperation rather than sweeping treaties, grand vision, or detailed institutional re-design".  OR "overlapping, modular and open coalitions, with variable participation across issues, designed to remain functional without hegemonic sponsorship.".  In other words, these coalitions only have to be multilateral-enough; they are supported by inadvertent cooperation rather than by formal treaty or grand vision.
- b. [Open question] I am working on formalizing the relation between my version of pragmatic multilateralism and Duncan Snidal's "k-group" analysis.  Snidal pluralises the supply of leadership; Keohane explains cooperation after hegemony; my G-minus argument asks how cooperation can be designed so that hegemonic sponsorship is optional from the outset or can become unnecessary over time.
- c. [Open question] I am working on clarifying the relation between my version of pragmatic multilateralism and Barry Buzan's ideas of "deep pluralism" and Amitav Acharya's concept of "multiplexity".
+ b. [Open question] I seek to engage my ideas of economic diplomacy with what might be viewed as formalizations of "traditional economical statecraft", my interpretation the work of Clayton, Maggiore, and Schreger; Becko, Grossman, and Helpman; and others. How best to do that --- what analytical models, what empirical evidence --- I am still investigating.
+ c. [Open question] I am working on formalizing the relation between my version of pragmatic multilateralism and Duncan Snidal's "k-group" analysis.  Snidal pluralises the supply of leadership; Keohane explains cooperation after hegemony; my G-minus argument asks how cooperation can be designed so that hegemonic sponsorship is optional from the outset or can become unnecessary over time.
+ d. [Open question] I am working on clarifying the relation between my version of pragmatic multilateralism and Barry Buzan's ideas of "deep pluralism" and Amitav Acharya's concept of "multiplexity".
+ e. [Open question] The previous two statements of work---relating to Snidal and Keohane, on the one hand, and Acharya and Buzan, on the other---point to two different conceptual schemas. They come at the question of pragmatic multilateralism from two different directions. If feasible it might be useful to unify them. I'm not sure yet how to approach this.
 7. [Working hypothesis] A related line of my work seeks to apply this thinking to concrete expressions of relationships across nations.  One such expression is trade: A stable trading system does not eliminate conflict; it provides an infrastructure in which continued interaction remains ordinary despite political disagreement. Another, international currency arrangements: What matters for the performance of the international monetary system is not the identity of the international currency (US dollar, Euro, China's RMB), but ownership of the pipes through which that currency flows.
 
 My proximate goals are three-fold:  (1) To publish technical articles that flesh out this framework rigorously and to publish a book that lays out a definitive coherent framing of Economic Diplomacy; (2) To provide policy practitioners guidance on navigating the emerging world order where states increasingly conduct geoeconomics within a world of strategic interdependence; (3) To establish a research and training centre that is an Institute for Economic Diplomacy.
 
-Keep in mind this organising framework for my research:
-
-| Level | Central proposition |
-| :--- | :--- |
-| Diagnosis | Hegemonic underwriting and rules-based multilateralism are retreating amid geoeconomic conduct and weaponised interdependence |
-| Actors | Third nations, especially small states, cannot reproduce Great-Power statecraft |
-| Mechanism | Incentive compatibility can generate inadvertent cooperation without consensus |
-| Strategy | Economic diplomacy combines Acquiescence, Adaptation and Aggregation |
-| Institutional design | Pathfinder, modular, G-minus and multilateral-enough coalitions make cooperation ordinary |
-| Outcomes | Greater policy space, resilience, prosperity, predictability and peace |
-
-and conceptual vocabulary:
-
-| Concept | Role and Function |
-| :-- | :-- |
-| 3As | Acquiescence.  Adaptation.  Aggregation.   Acquiescence is symbolic yielding on the axis of contention, while quietly building institutions elsewhere.  Adaptation is domestic restructuring for increased resilience.  And aggregation is coalition-building where great power presence is optional. |
-| Aggregation | what Third Nations _do strategically_ to construct or strengthen arrangements across them; coalition-buiding where great power presence is optional. |
-| Epic-fail equilibria | the counterpart of Prisoner's Dilemma outcomes where, instead of the equilibrium being bad for the players but potentially good for society (the bad guy remains imprisoned), in Epic Fail the outcome is always bad for international society: countries going to war for avoidable reasons is an Epic Fail |
-| G-minus | institutions and behaviour remaining functional when Great Powers are not excluded but, at the same time, are also not required |
-| hyper multipolarity | the extreme version of multipolarity where it's not just three or four or five poles of power, but everyone is a pole of power---the distribution is flat |
-| incentive compatibility | the underlying mechanism, where the players' interests align |
-| inadvertent cooperation | the cooperative behaviour/outcome that that mechanism can induce |
-| Middle Power fallacy | the idea that should Great Powers retreat, the Middle Powers can step up and play the role of benevolent hegemon |
-| modularity | how issue-specific arrangements can be composed |
-| multilateral-enough | the sufficiency criterion in place of universal participation |
-| pathfinder | how a subset of willing states initiates action |
-| Posen amendment | benevolence in Hegemonic Stability Theory is not a parameter but an endogenous variable, and will change sign when the cost-benefit ratio is sufficiently high. The same concentrated power that stabilized the international system can turn against it.  The example I have in mind is from Posen's 2025 Foreign Affairs article, where he describes the US transitioning from global insurer to extractor of profit |
-| pragmatic multilateralism | the larger institutional topology combining these properties |
-
-This conceptual vocabulary is relatively distinctive to my work, so I will want to use this language as much as possible, without over-using it to the point of irritation in an audience.
 
 I am, by my early professional experience, comfortable with statistics, coding, and econometrics.  But over the years I have also grown to favour working with analytical economic models and game theory.  However, I prefer parsimonious models and analyses that can be explained on the back of an envelope, using just two or three equations and intuitive graphs---not massive calibrations that require intensive machine simulation.  When possible I like it if my writings get to use all these different technical devices---analytical, statistical, evidence-based---but I appreciate that that is often not possible.
 
