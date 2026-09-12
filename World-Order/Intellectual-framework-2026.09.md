@@ -1,6 +1,6 @@
 ---
 fileName: Intellectual-framework-2026.09.md
-Last-edited: 2026.09.11.1735.Fri -- Danny Quah ( dq @ msm3u-202603.local )
+Last-edited: 2026.09.12.1300.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -9,7 +9,9 @@ title: Intellectual-framework-2026.09
 ---
 This file puts down key contours of my research, teaching, and other professional work.  The intention here is not to train you but for us to build a shared intellectual framework.  
 
-Treat this document as the controlling statement of my current intellectual framework.  Where it conflicts with earlier publications, working papers, talks, syllabi, or other materials, this document takes precedence. Those other sources remain as evidence about the development of my thinking, examples, and arguments I may wish to reuse, and—especially—as evidence of my writing voice.  Statements in this document supersede other formulations unless I explicitly say otherwise.
+Treat this document as the controlling statement of my current intellectual framework.  Where it conflicts with earlier publications, working papers, talks, syllabi, or other materials, this document takes precedence. Those other sources remain as evidence about the development of my thinking, examples, and arguments I may wish to reuse, and—especially—as evidence of my writing voice.  Past sources, therefore, provide context.  However, statements in this document represent the definitive current working hypotheses. These supersede other formulations unless I explicitly say otherwise.
+
+If ambiguity arises, flag it by citing where this document contains conflicting statements.
 
 I am an economist, with research work primarily in timeseries econometrics and macroeconomics early in my career (1990s-2000s) but I have since then pivoted to economic analysis of world order (in international relations).
 
@@ -39,7 +41,8 @@ https://www.DannyQuah.com/Storage/PP5182/2026t27/PP5182-syll.pdf
 
 My publications represent explorations that attempt to set down a consistent view.  However, some of these papers will have been composed when my ideas were still coming together: There won't, therefore, be 100% conformity across them.  But the publications are, nonetheless, broadly consistent with an intellectual map that I will continue to refine as both my thinking and writing advance.  
 
-To help identify the different stages of thinking I will, where most useful, mark out: [Position] - maintained in the current framework; [Working hypothesis] - promising but needs to be tested; [Open question] - the framework does not prejudge on this.
+To help identify the different stages of thinking I will, where useful, place tags: [Position] - maintained in the current framework; [Working hypothesis] - promising but needs to be tested; [Open question] - the framework does not prejudge on this.  Tags apply strictly to the clause to which they're attached. Thus, in itemisations, parent tags do not apply to subordinate items.
+
 
 **My intellectual map**  
 
@@ -89,7 +92,7 @@ and conceptual vocabulary:
 | pathfinder | how a subset of willing states initiates action |
 | modularity | how issue-specific arrangements can be composed |
 | multilateral-enough | the sufficiency criterion in place of universal participation |
-| G-minus | the robustness property that institutions and behaviour remains functional without any particular Great Power, although not a priori excluding Great Power participation |
+| G-minus | institutions and behaviour remaining functional when Great Powers are not excluded but, at the same time, are also not required |
 | pragmatic multilateralism | the larger institutional topology combining these properties |
 | Aggregation | what Third Nations _do strategically_ to construct or strengthen such arrangements |
 
@@ -97,7 +100,9 @@ and conceptual vocabulary:
 I am, by my early professional experience, comfortable with statistics, coding, and econometrics.  But over the years I have also grown to favour working with analytical economic models and game theory.  However, I prefer parsimonious models and analyses that can be explained on the back of an envelope, using just two or three equations and intuitive graphs---not massive calibrations that require intensive machine simulation.  When possible I like it if my writings get to use all these different technical devices---analytical, statistical, evidence-based---but I appreciate that that is often not possible.
 
 **Our working conventions**
-When you read my writing and rewrite or extend, seek to improve my writing but, as much as possible, retain my voice, including my idiosyncrasies, turns of phrase, and a strategic mix between ordinary natural language and technical terms (to jar the reader but diplomatically).  This strategic mix serves to stretch accepted language and helps establish my distinctive stamp on ideas.  Be generative rather than reflexively adversarial: reconstruct ideas in their strongest form, extend them creatively, and then stress-test their mechanisms, evidence, boundary conditions, and relation to existing literature. But while preserving productive idiosyncrasy, make sure also to correct genuine imprecision rather than normalising the prose into generic policy language. 
+When you read my writing and rewrite or extend, seek to improve my writing but, as much as possible, retain my voice, including my idiosyncrasies, turns of phrase, and a strategic mix between ordinary natural language and technical terms (to jar the reader but diplomatically).  This strategic mix serves to stretch accepted language and helps establish my distinctive stamp on ideas.  Be generative rather than reflexively adversarial: reconstruct ideas in their strongest form, extend them creatively, and then stress-test their mechanisms, evidence, boundary conditions, and relation to existing literature. But while preserving idiosyncrasy, make sure also to correct genuine imprecision.  
+
+For example, I might say "trade makes cooperation ordinary" to suggest how the process of economic exchange allows competing nations to work together in their self-interest as a matter of routine, until collaboration becomes a habit.  The lengthier explanation obviously makes things more precise.  But I will still use the shorter phrasing, judiciously when appropriate (not over-use it), as it is evocative and conveys the right impression without getting bogged down into overly specifying details.
 
 
 
