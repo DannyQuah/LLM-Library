@@ -1,6 +1,6 @@
 ---
 fileName: Intellectual-framework-2026.09.md
-Last-edited: 2026.09.12.1300.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.09.12.1606.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -87,22 +87,30 @@ and conceptual vocabulary:
 
 | Concept | Role and Function |
 | :-- | :-- |
+| 3As | Acquiescence.  Adaptation.  Aggregation.   Acquiescence is symbolic yielding on the axis of contention, while quietly building institutions elsewhere.  Adaptation is domestic restructuring for increased resilience.  And aggregation is coalition-building where great power presence is optional. |
+| Aggregation | what Third Nations _do strategically_ to construct or strengthen arrangements across them; coalition-buiding where great power presence is optional. |
+| Epic-fail equilibria | the counterpart of Prisoner's Dilemma outcomes where, instead of the equilibrium being bad for the players but potentially good for society (the bad guy remains imprisoned), in Epic Fail the outcome is always bad for international society: countries going to war for avoidable reasons is an Epic Fail |
+| G-minus | institutions and behaviour remaining functional when Great Powers are not excluded but, at the same time, are also not required |
+| hyper multipolarity | the extreme version of multipolarity where it's not just three or four or five poles of power, but everyone is a pole of power---the distribution is flat |
 | incentive compatibility | the underlying mechanism, where the players' interests align |
 | inadvertent cooperation | the cooperative behaviour/outcome that that mechanism can induce |
-| pathfinder | how a subset of willing states initiates action |
+| Middle Power fallacy | the idea that should Great Powers retreat, the Middle Powers can step up and play the role of benevolent hegemon |
 | modularity | how issue-specific arrangements can be composed |
 | multilateral-enough | the sufficiency criterion in place of universal participation |
-| G-minus | institutions and behaviour remaining functional when Great Powers are not excluded but, at the same time, are also not required |
+| pathfinder | how a subset of willing states initiates action |
+| Posen amendment | benevolence in Hegemonic Stability Theory is not a parameter but an endogenous variable, and will change sign when the cost-benefit ratio is sufficiently high. The same concentrated power that stabilized the international system can turn against it.  The example I have in mind is from Posen's 2025 Foreign Affairs article, where he describes the US transitioning from global insurer to extractor of profit |
 | pragmatic multilateralism | the larger institutional topology combining these properties |
-| Aggregation | what Third Nations _do strategically_ to construct or strengthen such arrangements |
 
+This conceptual vocabulary is relatively distinctive to my work, so I will want to use this language as much as possible, without over-using it to the point of irritation in an audience.
 
 I am, by my early professional experience, comfortable with statistics, coding, and econometrics.  But over the years I have also grown to favour working with analytical economic models and game theory.  However, I prefer parsimonious models and analyses that can be explained on the back of an envelope, using just two or three equations and intuitive graphs---not massive calibrations that require intensive machine simulation.  When possible I like it if my writings get to use all these different technical devices---analytical, statistical, evidence-based---but I appreciate that that is often not possible.
 
 **Our working conventions**
 When you read my writing and rewrite or extend, seek to improve my writing but, as much as possible, retain my voice, including my idiosyncrasies, turns of phrase, and a strategic mix between ordinary natural language and technical terms (to jar the reader but diplomatically).  This strategic mix serves to stretch accepted language and helps establish my distinctive stamp on ideas.  Be generative rather than reflexively adversarial: reconstruct ideas in their strongest form, extend them creatively, and then stress-test their mechanisms, evidence, boundary conditions, and relation to existing literature. But while preserving idiosyncrasy, make sure also to correct genuine imprecision.  
 
-For example, I might say "trade makes cooperation ordinary" to suggest how the process of economic exchange allows competing nations to work together in their self-interest as a matter of routine, until collaboration becomes a habit.  The lengthier explanation obviously makes things more precise.  But I will still use the shorter phrasing, judiciously when appropriate (not over-use it), as it is evocative and conveys the right impression without getting bogged down into overly specifying details.
+For example, I might say "trade makes cooperation ordinary" to suggest how the process of economic exchange allows competing nations to work together in their self-interest as a matter of routine, until collaboration becomes a habit.  The lengthier explanation obviously makes things more precise.  But I will still use the shorter phrasing, judiciously when appropriate (not over-use it), as it is evocative and conveys the right impression without getting bogged down into overly specifying details.  
+
+Another example is when I say "G-minus is when Great Power presence is optional".  
 
 
 
