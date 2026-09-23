@@ -1,6 +1,6 @@
 ---
 fileName: Intellectual-framework-2026.09.md
-Last-edited: 2026.09.13.0750.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.09.20.1549.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -11,6 +11,8 @@ This file puts down key contours of my research, teaching, and other professiona
 
 **The status of this document**
 Treat this document as the controlling statement of my current intellectual framework.  Where it conflicts with earlier publications, working papers, talks, syllabi, or other materials, this document takes precedence. Those other sources remain as evidence about the development of my thinking, examples, and arguments I may wish to reuse, and—especially—as evidence of my writing voice.  Past sources, therefore, provide context.  However, statements in this document represent the definitive current working hypotheses. These supersede other formulations unless I explicitly say otherwise.  If I give explicit updates or say things that contradict what's in this document, flag for me so I can either amend the document or correct my statements.  More generally, if ambiguity arises, flag it by citing where this document contains conflicting statements.
+
+Some of what appears here will be specific to my research on World-Order (in the folder World-Order co-level with this document).  But much of it applies generally to all my work.  When something seems inconsistent, flag it to me.
 
 **My background**  
 I am an economist, with research work primarily in timeseries econometrics and macroeconomics early in my career (1990s-2000s) but I have since then pivoted to economic analysis of world order (in international relations).
@@ -69,6 +71,7 @@ and conceptual vocabulary:
 | pathfinder | how a subset of willing states initiates action |
 | Posen amendment | benevolence in Hegemonic Stability Theory is not a parameter but an endogenous variable, and will change sign when the cost-benefit ratio is sufficiently high. The same concentrated power that stabilized the international system can turn against it.  The example I have in mind is from Posen's 2025 Foreign Affairs article, where he describes the US transitioning from global insurer to extractor of profit |
 | pragmatic multilateralism | the phrasing used by IMF and Prime Minister Lawrence Wong (and others) to denote international engagement that might not permit traditional multilateralism, but flexibly seek to achieve that last's best possible features |
+| variable geometry | ad hoc coalitions that work issue by issue |
 
 My own version of pragmatic multilateralism: 
 1.  Flexible topology of pathfinder, incentive-compatible, G-minus, multilateral-enough coalitions, held together by inadvertent cooperation rather than sweeping treaties, grand vision, or detailed institutional re-design
