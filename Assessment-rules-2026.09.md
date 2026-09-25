@@ -1,6 +1,6 @@
 ---
 fileName: Assessment-rules-2026.09.md
-Last-edited: 2026.09.25.1555.Fri -- Danny Quah ( dq @ msm3u-202603.local )
+Last-edited: 2026.09.25.1552.Fri -- Danny Quah ( dq @ msm3u-202603.local )
 Type: Notes
 Tags:
   - assessment
@@ -59,8 +59,8 @@ Standard deviation at least 5
 | A-, B+ | 75-79, 70-74 | Very Good | Clearly identifies the decision to be made and what the decision-maker needs to know. Relevant evidence is selected and interpreted well. Recommendation is specific and actionable. Recognizes important practical constraints. Clear, concise, and well organized. |
 | B, B- | 65-69, 60-64 | Good | Provides useful analysis of the decision and a plausible recommendation. Generally relevant evidence and clear writing, but analysis may contain unnecessary material or neglect some important constraints, trade-offs, stakeholders, or implementation issues. |
 | C+, C | 55-59, 50-54 | Adequate | Broadly understands the policy issue and communicates a recognizable recommendation. Some relevant analysis, but insufficiently focused on the decision-maker's needs. Important evidence, alternatives, constraints, or practical implications may be missing. |
-| D+, D | 45-49, 40-44 | Unsatisfactory | Limited understanding of the decision facing the recipient. Memo is poorly focused, inadequately supported, impractical, or difficult to use. Recommendation may be unclear or unsupported. |
-| F | 0-39 | Very unsatisfactory | Does not provide the recipient with a usable analysis of the policy decision. Little relevant evidence or reasoning. No credible actionable recommendation. |
+| D+, D | 20-39 | Unsatisfactory | Limited understanding of the decision facing the recipient. Memo is poorly focused, inadequately supported, impractical, or difficult to use. Recommendation may be unclear or unsupported. |
+| Bad Fail | 0-19 | Very unsatisfactory | Does not provide the recipient with a usable analysis of the policy decision. Little relevant evidence or reasoning. No credible actionable recommendation. |
 
 
 ### WHITE-PAPER-ANALYTIC
@@ -71,8 +71,8 @@ Standard deviation at least 5
 | A-, B+ | 75-79, 70-74 | Very Good | Defines and explains the policy problem clearly and comprehensively. Draws on a substantial and appropriate evidence base. Identifies important causal mechanisms, competing interpretations, and policy alternatives. Conclusions and recommendations are well supported by the analysis. |
 | B, B- | 65-69, 60-64 | Good | Good understanding of the policy problem and relevant evidence. Analysis goes beyond description and identifies important causes, consequences, or policy alternatives. Some analytical sophistication, but synthesis, evaluation of evidence, alternatives, or connection to recommendations remains incomplete. |
 | C+, C | 55-59, 50-54 | Adequate | Coherent and relevant account of the policy problem. Uses some appropriate evidence and demonstrates basic understanding of relevant concepts. Analysis is substantially descriptive, with limited evaluation of evidence, competing explanations, trade-offs, or policy alternatives. |
-| D+, D | 45-49, 40-44 | Unsatisfactory | Incomplete or poorly understood account of the policy problem. Evidence is inadequate, poorly interpreted, or weakly connected to claims. Analysis lacks structure or contains significant factual or conceptual errors. Policy conclusions are inadequately supported. |
-| F | 0-39 | Very unsatisfactory | Little evidence of understanding of the policy problem. Shallow or seriously flawed analysis, with little credible evidence. No defensible policy conclusions. |
+| D+, D | 20-39 | Unsatisfactory | Incomplete or poorly understood account of the policy problem. Evidence is inadequate, poorly interpreted, or weakly connected to claims. Analysis lacks structure or contains significant factual or conceptual errors. Policy conclusions are inadequately supported. |
+| Bad Fail | 0-19 | Very unsatisfactory | Little evidence of understanding of the policy problem. Shallow or seriously flawed analysis, with little credible evidence. No defensible policy conclusions. |
 
 
 ### WHITE-PAPER-PUBLIC-POLICY
@@ -83,8 +83,8 @@ Standard deviation at least 5
 | A-, B+ | 75-79, 70-74 | Very Good | Provides an authoritative, accessible account of the policy problem for an informed non-specialist audience. Selects and synthesizes relevant evidence well. Establishes clear policy implications and credible recommendations. Recognizes major trade-offs, stakeholders, and implementation constraints. |
 | B, B- | 65-69, 60-64 | Good | Provides a useful and generally convincing account of the policy problem. Evidence is relevant and policy implications are identifiable. Recommendations are plausible, but the paper may be insufficiently selective, synthetic, distinctive, or attentive to implementation and competing interests. |
 | C+, C | 55-59, 50-54 | Adequate | Provides a recognizable account of the issue and some relevant policy conclusions. Evidence and analysis are adequate but substantially descriptive. Limited synthesis, prioritization, consideration of alternatives, or attention to the needs of a policy audience. |
-| D+, D | 45-49, 40-44 | Unsatisfactory | Does not provide a sufficiently reliable or useful account of the policy problem for an informed policy audience. Weak evidence, unclear argument, major omissions, impractical conclusions, or poor organization substantially reduce its usefulness. |
-| F | 0-39 | Very unsatisfactory | Would seriously misinform or fail to inform its intended policy audience. Little credible analysis or evidence and no defensible policy direction. |
+| D+, D | 20-39 | Unsatisfactory | Does not provide a sufficiently reliable or useful account of the policy problem for an informed policy audience. Weak evidence, unclear argument, major omissions, impractical conclusions, or poor organization substantially reduce its usefulness. |
+| Bad Fail | 0-19 | Very unsatisfactory | Would seriously misinform or fail to inform its intended policy audience. Little credible analysis or evidence and no defensible policy direction. |
 
 
 ### ESSAY-TRADITIONAL
