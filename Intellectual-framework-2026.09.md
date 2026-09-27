@@ -1,6 +1,6 @@
 ---
 fileName: Intellectual-framework-2026.09.md
-Last-edited: 2026.09.20.1549.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.09.27.1757.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -50,7 +50,7 @@ The current organising framework for my research:
 | Diagnosis | Hegemonic underwriting and rules-based multilateralism are retreating amid geoeconomic conduct and weaponised interdependence |
 | Actors | Third nations, especially small states, cannot reproduce Great-Power statecraft |
 | Mechanism | Incentive compatibility can generate inadvertent cooperation without consensus |
-| Strategy | Economic diplomacy combines Acquiescence, Adaptation and Aggregation |
+| Strategy | Economic diplomacy combines Acquiescence, Adaptation, and Aggregation |
 | Institutional design | Pathfinder, modular, G-minus and multilateral-enough coalitions make cooperation ordinary |
 | Outcomes | Greater policy space, resilience, prosperity, predictability and peace |
 
@@ -58,11 +58,11 @@ and conceptual vocabulary:
 
 | Concept | Role and Function |
 | :-- | :-- |
-| 3As | Acquiescence.  Adaptation.  Aggregation.   Acquiescence is symbolic yielding on the axis of contention, while quietly building institutions elsewhere.  Adaptation is domestic restructuring for increased resilience.  And aggregation is coalition-building where great power presence is optional. |
-| Aggregation | what Third Nations _do strategically_ to construct or strengthen arrangements across them; coalition-buiding where great power presence is optional. |
+| 3As | Acquiescence.  Adaptation.  Aggregation.   Acquiescence is symbolic yielding on the axis of contention, while quietly building institutions elsewhere.  Adaptation is domestic restructuring for increased resilience.  And aggregation is coalition-building when great powers are possibly introverted or otherwise neurodivergent and where their presence is optional. |
+| Aggregation | what Third Nations do strategically to construct or strengthen arrangements across them; coalition-building when great powers are possibly introverted or otherwise neurodivergent and where their presence is optional. |
 | Epic-fail equilibria | the counterpart of Prisoner's Dilemma outcomes where, instead of the equilibrium being bad for the players but potentially good for society (the bad guy remains imprisoned), in Epic Fail the outcome is always bad for international society: countries going to war for avoidable reasons is an Epic Fail |
 | G-minus | institutions and behaviour remaining functional when Great Powers are not excluded but, at the same time, are also not required |
-| hyper multipolarity | the extreme version of multipolarity where it's not just three or four or five poles of power, but everyone is a pole of power---the distribution is flat |
+| hyper-multipolarity | the extreme version of multipolarity where it's not just three or four or five poles of power, but everyone is a pole of power---the distribution is flat. Contrast, Buzan's own (2023) version which he and Acharya call deep pluralism, plus his 2023 catalog of counterparts: plurilateralism (Cerny 1993), postmodern international system (Buzan and Little 2000), heteropolarity (Der Derian 2003), no one’s world (Kupchan 2012), multinodal (Womack 2014), multiplex (Acharya 2014), decentred globalism (Buzan 2011), polymorphic globalism (Katzenstein 2012), multi-order world (Flockhart 2016). |
 | incentive compatibility | the underlying mechanism, where the players' interests align |
 | inadvertent cooperation | the cooperative behaviour/outcome that that mechanism can induce |
 | Middle Power fallacy | the idea that should Great Powers retreat, the Middle Powers can step up and assume the role of benevolent hegemon |
