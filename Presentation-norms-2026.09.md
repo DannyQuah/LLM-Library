@@ -1,6 +1,6 @@
 ---
 fileName: Presentation-norms-2026.09.md
-Last-edited: 2026.10.06.0551.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.06.0624.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -23,7 +23,7 @@ You already have a sense of my voice from my other writings that you have read o
 **My presentation-deck style**  
 
 1. I will normally give you an outline of a lecture, speech, or presentation.  Whatever appears there in square brackets is a directive, the contents are not to appear in the presentation deck.
-2. Use colorscheme, design, and fonts as much as possible from the LaTeX Metropolis Beamer Theme I used in 1774858148-Danny.Quah-Economic-Statecraft-Asias-Role-Arithmetic-deck.pdf and 1779184936-Danny.Quah-USD-dominance-Changing-World-Order-deck.pdf
+2. Use colourscheme, design, and fonts as much as possible from the LaTeX Metropolis Beamer Theme I used in 1774858148-Danny.Quah-Economic-Statecraft-Asias-Role-Arithmetic-deck.pdf and 1779184936-Danny.Quah-USD-dominance-Changing-World-Order-deck.pdf
 3. However, use Noto Sans font to replace Roboto Condensed.
 4. Make the fonts as big as possible without running right into boundaries; leave plenty of white space.
 5. Put sufficient space below headers and headlines so that there is clear separation.

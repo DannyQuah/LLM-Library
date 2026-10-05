@@ -1,6 +1,6 @@
 ---
 fileName: Assessment-rules-2026.09.md
-Last-edited: 2026.10.06.0614.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.06.0620.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - assessment
@@ -22,7 +22,12 @@ At least 3 datapoints observed for every grade
 Average mark 60-80  
 Standard deviation at least 5  
 
-These rules require a cohort of at least 33 students and about 30 for the A+ rule alone.  So treat as advisory the rules on A+, per-grade minimum, and standard deviation floor in smaller classes.  
+These rules require a cohort of at least 33 students and about 30 for the A+ rule alone.  So treat as advisory the rules on A+, per-grade minimum, and standard deviation floor in smaller classes.  For greater precision as needed:
+
+- The A+ cap, the per-grade minimum of 3, and the standard-deviation floor are advisory.
+- The 20% cap (A+ and A) and the 40% or 50% cap (A+, A, A-) still bind.
+- The 60–80 average still binds.
+- The "smaller class" cutoff is 33, or about 30 for the A+ cap.
 
 ### NUS-GRADING-TABLE  
 
