@@ -1,6 +1,6 @@
 ---
 fileName: Intellectual-framework-2026.09.md
-Last-edited: 2026.10.04.1130.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.04.2106.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -58,7 +58,7 @@ and conceptual vocabulary:
 
 | Concept | Role and Function |
 | :-- | :-- |
-| 3As | Acquiescence.  Adaptation.  Aggregation.   Acquiescence is symbolic yielding on the axis of contention, while quietly building institutions elsewhere.  Adaptation is domestic restructuring for increased resilience.  And aggregation is coalition-building when great powers are aggressive, obstructionist, distracted, or even just absent |
+| 3As | Acquiescence.  Adaptation.  Aggregation.   Acquiescence is symbolic yielding on the axis of contention.  Adaptation is domestic restructuring for increased resilience.  And aggregation is coalition building when great powers are aggressive, obstructionist, distracted, or simply absent |
 | Acquiescence | (detailed for RA/LLM coding) making a visible, often rhetorical, concession on a specific axis of contention.  In the case of triggering by specific trade policy a Great Power has put in place, the concession might be agreement to a purchase target, tariff-line adjustment, currency-practice review, or similar.  Look for signal language: "agreed to", "pledged to", "committed to", "will increase purchases of", "committed to review", and similar. |
 | Adaptation | (detailed for RA/LLM coding) Domestic restructuring for resilience. Government, central bank, or industry-body actions to reduce future vulnerability including subsidies, reshoring incentives, stockpiling, diversification targets, domestic content rules, industrial restructuring, and so on.  Look for signal language: "regional alternative to", "deepen ties among", "new trade framework", "currency swap arrangement", and so on.  If trigger is US trade policy, expand signal language to include specifically "regardless of Washington", "without the United States", and similar. |
 | Aggregation | (detailed for RA/LLM coding) what Third Nations do strategically to construct or strengthen arrangements across one another; coalition-building  when great powers are aggressive, obstructionist, distracted, or even just absent.  Outward coalition-building among two or more peer states, explicitly or implicitly framed as an alternative, complement, or hedge.  Must involve joint or plural action, not a single state acting alone.  Signal language: "regional alternative to", "deepen ties among", "new trade framework", "currency swap arrangement", and similar.   If triggered by US policy, the hedge is alternative to US-anchored arrangements, and signal language includes "without the United States", "regardless of Washington", and so on.|
