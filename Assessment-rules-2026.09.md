@@ -1,6 +1,6 @@
 ---
 fileName: Assessment-rules-2026.09.md
-Last-edited: 2026.10.06.0530.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.06.0603.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - assessment
@@ -21,6 +21,8 @@ Across an LKYSPP cohort
 At least 3 datapoints observed for every grade  
 Average mark 60-80  
 Standard deviation at least 5  
+
+These rules require a cohort of at least 33 students and about 30 for the A+ rule alone.  So relax them in smaller classes where they arithmetically cannot apply.  
 
 ### NUS-GRADING-TABLE  
 
@@ -106,7 +108,7 @@ Integrates work completed as part of the internship experience and aims to eluci
 | :--- | :--- | :--- |
 | Clarity of policy problem | What is the policy challenge and why is it important – is it an emerging problem that has not yet been dealt with; or is it a problem that exists but has not been satisfactorily dealt with? How important is the challenge – it should not be trivial. | 15 |
 | Literature review | What case studies or reports exist that address your policy problem? What academic frameworks or theories are relevant to understanding your issue? What has been done to address the issue at hand, and why is the existing policy inadequate? The literature reviewed here should also engage case studies, frameworks, and/or reports from academics, governments, and think tanks that address your policy problem. | 10 |
-| Analysis | his section should lay out the following: (1) Since the existing policies are inadequate, what should be done to address the problem? (2) What are the 2-3 leading policy options in front of the actor (according to the actor itself or the analyst)? What are the pros and cons/costs and benefits of each option? (3) Both the policy process and outcomes should be analysed, including in terms of the implications for different stakeholders. | 35 |
+| Analysis | This section should lay out the following: (1) Since the existing policies are inadequate, what should be done to address the problem? (2) What are the 2-3 leading policy options in front of the actor (according to the actor itself or the analyst)? What are the pros and cons/costs and benefits of each option? (3) Both the policy process and outcomes should be analysed, including in terms of the implications for different stakeholders. | 35 |
 | Policy recommendations | Are these policies more generally valid or only applicable to your case? | 30 |
 | Organisation/ Structure/ Style | (1) Logical development and originality of arguments (2) Coherence, clarity, and effectiveness (3) Effective use of the appendix to stay within the word limit. (4) In addition, the Capstone should be organised for non-academic consumption and include an executive summary. | 10 |
 
