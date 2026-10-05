@@ -1,6 +1,6 @@
 ---
 fileName: Assessment-rules-2026.09.md
-Last-edited: 2026.10.06.0620.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.06.0630.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - assessment
@@ -63,9 +63,9 @@ These rules require a cohort of at least 33 students and about 30 for the A+ rul
 | :-- | :-- | :-- | :-- |
 | A+ | 85-100 | Outstanding | Below plus exceptional policy judgement. Anticipates what the decision-maker needs to know, including important risks, objections, constraints, or consequences that are not obvious. Could credibly inform a consequential real-world decision. |
 | A | 80-84 | Excellent | Below plus strong judgement about what matters for the decision. Recommendation is compellingly supported, practically feasible, and attentive to trade-offs, stakeholders, implementation, and risk. Highly effective professional communication. |
-| A-, B+ | 75-79, 70-74 | Very Good | Clearly identifies the decision to be made and what the decision-maker needs to know. Relevant evidence is selected and interpreted well. Recommendation is specific and actionable. Recognizes important practical constraints. Clear, concise, and well organized. |
+| A-, B+ | 75-79, 70-74 | Very Good | Clearly identifies the decision to be made and what the decision-maker needs to know. Relevant evidence is selected and interpreted well. Recommendation is specific and actionable. Recognises important practical constraints. Clear, concise, and well organised. |
 | B, B- | 65-69, 60-64 | Good | Provides useful analysis of the decision and a plausible recommendation. Generally relevant evidence and clear writing, but analysis may contain unnecessary material or neglect some important constraints, trade-offs, stakeholders, or implementation issues. |
-| C+, C | 55-59, 50-54 | Adequate | Broadly understands the policy issue and communicates a recognizable recommendation. Some relevant analysis, but insufficiently focused on the decision-maker's needs. Important evidence, alternatives, constraints, or practical implications may be missing. |
+| C+, C | 55-59, 50-54 | Adequate | Broadly understands the policy issue and communicates a recognisable recommendation. Some relevant analysis, but insufficiently focused on the decision-maker's needs. Important evidence, alternatives, constraints, or practical implications may be missing. |
 | D+, D | 45-49, 40-44 | Unsatisfactory | Limited understanding of the decision facing the recipient. Memo is poorly focused, inadequately supported, impractical, or difficult to use. Recommendation may be unclear or unsupported. |
 | F | 0-39 | Very unsatisfactory | Does not provide the recipient with a usable analysis of the policy decision. Little relevant evidence or reasoning. No credible actionable recommendation. |
 
@@ -86,11 +86,11 @@ These rules require a cohort of at least 33 students and about 30 for the A+ rul
 | Grade | Mark | Remark | Descriptive equivalent |
 | :-- | :-- | :-- | :-- |
 | A+ | 85-100 | Outstanding | Below plus exceptional policy judgement and intellectual contribution. Reframes or substantially clarifies an important policy problem and develops conclusions of genuine value to an informed policy audience. Could credibly influence how policymakers or specialists think about the issue. |
-| A | 80-84 | Excellent | Below plus a distinctive and convincing policy argument. Synthesizes complex evidence into a clear account of what matters and why. Confronts serious objections, uncertainty, competing interests, and implementation constraints. Recommendations are consequential, realistic, and convincingly justified. |
-| A-, B+ | 75-79, 70-74 | Very Good | Provides an authoritative, accessible account of the policy problem for an informed non-specialist audience. Selects and synthesizes relevant evidence well. Establishes clear policy implications and credible recommendations. Recognizes major trade-offs, stakeholders, and implementation constraints. |
+| A | 80-84 | Excellent | Below plus a distinctive and convincing policy argument. Synthesises complex evidence into a clear account of what matters and why. Confronts serious objections, uncertainty, competing interests, and implementation constraints. Recommendations are consequential, realistic, and convincingly justified. |
+| A-, B+ | 75-79, 70-74 | Very Good | Provides an authoritative, accessible account of the policy problem for an informed non-specialist audience. Selects and synthesises relevant evidence well. Establishes clear policy implications and credible recommendations. Recognises major trade-offs, stakeholders, and implementation constraints. |
 | B, B- | 65-69, 60-64 | Good | Provides a useful and generally convincing account of the policy problem. Evidence is relevant and policy implications are identifiable. Recommendations are plausible, but the paper may be insufficiently selective, synthetic, distinctive, or attentive to implementation and competing interests. |
-| C+, C | 55-59, 50-54 | Adequate | Provides a recognizable account of the issue and some relevant policy conclusions. Evidence and analysis are adequate but substantially descriptive. Limited synthesis, prioritization, consideration of alternatives, or attention to the needs of a policy audience. |
-| D+, D | 45-49, 40-44 | Unsatisfactory | Does not provide a sufficiently reliable or useful account of the policy problem for an informed policy audience. Weak evidence, unclear argument, major omissions, impractical conclusions, or poor organization substantially reduce its usefulness. |
+| C+, C | 55-59, 50-54 | Adequate | Provides a recognisable account of the issue and some relevant policy conclusions. Evidence and analysis are adequate but substantially descriptive. Limited synthesis, prioritisation, consideration of alternatives, or attention to the needs of a policy audience. |
+| D+, D | 45-49, 40-44 | Unsatisfactory | Does not provide a sufficiently reliable or useful account of the policy problem for an informed policy audience. Weak evidence, unclear argument, major omissions, impractical conclusions, or poor organisation substantially reduce its usefulness. |
 | F | 0-39 | Very unsatisfactory | Would seriously misinform or fail to inform its intended policy audience. Little credible analysis or evidence and no defensible policy direction. |
 
 
@@ -127,7 +127,7 @@ Elucidate/solve a current or emerging international policy issue facing an “im
 | Literature review | A brief review of the policy debates/relevant literature pertaining to the problem. Have authoritative persons/entities offered solutions to the problem? How useful are those possible solutions? Can you build on those, or are they outdated or not feasible? Is a completely fresh approach required? The literature reviewed here should also engage case studies, frameworks, and/or reports from academics, governments, and think tanks that address your policy problem.| 10 |
 | Analysis | This section should lay out the following: (1) Since the existing policies and solutions offered by authoritative persons/entities are inadequate, what should be done to address the problem? (2) What are the 2-3 leading policy options in front of the actor (according to the actor itself or analysts)? What are the pros and cons/costs and benefits of each option? (3) Both the policy process and outcomes should be analysed, including in terms of the implications for different stakeholders.| 35 |
 | Policy implications | Are these policies more generally valid or only applicable to your case?| 30 |
-| Organisation/ Structure/ Style |  (1) Logical development and originality of arguments (2) Coherence, clarity, and efficiency (3) Effective use of the appendix to stay within the word limit. (4) In addition, the White Paper should be organized for non-academic consumption and include an executive summary. | 10 |
+| Organisation/ Structure/ Style |  (1) Logical development and originality of arguments (2) Coherence, clarity, and efficiency (3) Effective use of the appendix to stay within the word limit. (4) In addition, the White Paper should be organised for non-academic consumption and include an executive summary. | 10 |
 
 
 ### ESSAY-LSE  
