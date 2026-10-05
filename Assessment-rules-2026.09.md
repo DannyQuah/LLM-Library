@@ -1,6 +1,6 @@
 ---
 fileName: Assessment-rules-2026.09.md
-Last-edited: 2026.09.26.1143.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.06.0530.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - assessment
@@ -123,7 +123,9 @@ Elucidate/solve a current or emerging international policy issue facing an “im
 | Organisation/ Structure/ Style |  (1) Logical development and originality of arguments (2) Coherence, clarity, and efficiency (3) Effective use of the appendix to stay within the word limit. (4) In addition, the White Paper should be organized for non-academic consumption and include an executive summary. | 10 |
 
 
-### ESSAY-LSE
+### ESSAY-LSE  
+This is here from earlier usage when I was at LSE; its conventions and grading scales differ from the others, which follow NUS norms.  There is no need to reconcile the rubric below with NUS ones.
+
 | Grade | Mark | Remark | Descriptive equivalent |
 | :-- | :-- | :-- | :-- |
 | A+ | 80+ | Outstanding | Below plus considerable amount of critical judgement and originality |
