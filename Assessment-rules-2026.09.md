@@ -1,6 +1,6 @@
 ---
 fileName: Assessment-rules-2026.09.md
-Last-edited: 2026.10.06.0603.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.06.0614.Tue -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - assessment
@@ -22,7 +22,7 @@ At least 3 datapoints observed for every grade
 Average mark 60-80  
 Standard deviation at least 5  
 
-These rules require a cohort of at least 33 students and about 30 for the A+ rule alone.  So relax them in smaller classes where they arithmetically cannot apply.  
+These rules require a cohort of at least 33 students and about 30 for the A+ rule alone.  So treat as advisory the rules on A+, per-grade minimum, and standard deviation floor in smaller classes.  
 
 ### NUS-GRADING-TABLE  
 
