@@ -1,13 +1,10 @@
 ---
 fileName: PP518x-AI-New-Asian-State-course-design.md
-Last-edited: 2026.10.10.0905.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
-Type: Event | Person | Notes | Publication | Log | Misc | Report
+Last-edited: 2026.10.10.1647.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
+Type: Notes
 Tags:
-  - worldOrder
-  - multilateralism
-  - socialMobility
-  - ChinaUS
-  - economicDiplomacy
+  - AI
+  - AsianDevelopmentalState
 Created: 2026.10.10.0905.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
 title: PP518x-AI-New-Asian-State-course-design
 ---
