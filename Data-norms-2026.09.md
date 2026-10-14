@@ -1,6 +1,6 @@
 ---
 fileName: Data-norms-2026.09.md
-Last-edited: 2026.10.13.1525.Tue -- Danny Quah ( dq @ msm3u-202603.local )
+Last-edited: 2026.10.14.1101.Wed -- Danny Quah ( dq @ msm3u-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -21,6 +21,8 @@ This document is definitive as the controlling statement of my norms for data ma
 
 **Spreadsheets**  
 1.  Whenever counts or other induced results are needed, use formulas unless it's not possible to do so.  This is so that any relevant changes get properly propagated and displayed.
+
+Write dates as YYYY.MM.DD preferably, or else if necessary the ISO format YYYY-MM-DD; dates written any other way cannot be sorted reliably.  
 
 
 <!--
