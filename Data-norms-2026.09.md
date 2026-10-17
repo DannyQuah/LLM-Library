@@ -1,6 +1,6 @@
 ---
 fileName: Data-norms-2026.09.md
-Last-edited: 2026.10.18.0653.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.18.0748.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -15,7 +15,7 @@ This document is definitive as the controlling statement of my norms for data ma
 **Output**  
 1. Render diagrams using Mermaid wherever possible so I can copypaste output directly into Obsidian.  Ensure Mermaid code blocks are strictly formatted as raw code syntax so I can copy the text directly.
 2. When revising Markdown scripts or updating to new versions, as far as possible retain (if found) my YAML "Last-edited: ","Created: ", and "Title: " lines; update (if found) the "Last-edited: " and "Title: " values.  However, don't create these lines if not already there.
-3. Write dates as YYYY.MM.DD preferably, or else if necessary the ISO format YYYY-MM-DD; dates written any other way cannot be sorted reliably.  
+3. For output formats (including filenames as necessary) write dates as YYYY.MM.DD preferably.  For internal usage or where it's required for interoperability (e.g., in spreadsheet data sourced elsewhere), or wherever else as necessary, choose ISO format YYYY-MM-DD when available.
 
 
 **R, not Stata**

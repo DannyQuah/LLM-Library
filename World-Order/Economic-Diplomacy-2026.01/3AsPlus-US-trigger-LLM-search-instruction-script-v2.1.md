@@ -1,7 +1,7 @@
 ---
 fileName: 3AsPlus-US-trigger-LLM-search-instruction-script-v2.1.md
 Version: 2.1
-Last-edited: 2026.10.18.0650.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.18.0744.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Status: Proposed operational protocol; not executed
 Created: 2026.10.18.0649.Sun 
 Title: 3AsPlus-US-trigger-LLM-search-instruction-script-v2.1
@@ -24,7 +24,7 @@ Discover dated, sourced actions by governments, regulators, authorised industry 
 6. Reuse already verified source documents and shared settlements. Validate IDs, dates, formulas, categories, outcome status, and source URLs after each checkpoint. Save partial batches with audit trail and measured resource indicators.
 
 ## Stopping and batching
-The current Library v2.0 script specifies a *long-run ceiling/target* of **100000 qualifying response events**, or exhaustion of clear leads; preserve that value rather than reverting without authorisation. **It is not a single-run quota.** Each execution must declare a bounded `batch_id`, years, jurisdictions, modalities, and a maximum number of candidates/events or work budget *before searching*. If no batch scope is supplied, use a conservative pilot batch and report the chosen scope; do not attempt 100000 events in one run. Stop at the batch boundary, document incomplete coverage, and never pad counts.
+The current scripts specify a *long-run ceiling/target* of **100000 qualifying response events**, or exhaustion of clear leads; preserve that value rather than reverting without authorisation. **It is not a single-run quota.** Each execution must declare a bounded `batch_id`, years, jurisdictions, modalities, and a maximum number of candidates/events or work budget *before searching*. If no batch scope is supplied, use a conservative pilot batch and report the chosen scope; do not attempt 100000 events in one run. Stop at the batch boundary, document incomplete coverage, and never pad counts.
 
 ## Output
 Use the ten-tab integrated workbook exactly as `3AsPlus-US-trigger-output-format-v1.1.md` specifies, with new Tier 1 outcome and measurement fields. Report new/updated unique events, triggers, exposure cells, links and settlements; source concentration; unresolved and positively documented outcomes; search coverage; measured effort and unavailable metrics. Propositions 1 and 2 may use the full validated response data. Proposition 3 is **descriptive context only** pending the Tier 2 stratified investigation. No causal conclusions.
