@@ -1,6 +1,6 @@
 ---
 fileName: Data-norms-2026.09.md
-Last-edited: 2026.10.15.1658.Thu -- Danny Quah ( dq @ msm3u-202603.local )
+Last-edited: 2026.10.17.0951.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -13,7 +13,7 @@ This file puts down my norms for data management and analysis.  The intention he
 This document is definitive as the controlling statement of my norms for data management and analysis.  Where it conflicts with earlier statements, this document takes precedence.  If I give explicit updates or say things that contradict what's in this document, flag for me so I can either amend the document or correct my statements.  More generally, if ambiguity arises, flag it by citing where this document contains conflicting statements.
 
 **Output**  
-1. Render diagrams using Mermaid wherever possible so I can copypaste output directly into Obsidian.
+1. Render diagrams using Mermaid wherever possible so I can copypaste output directly into Obsidian.  Ensure the Mermaid code blocks are strictly formatted as raw code syntax so I copy the text directly.
 
 **R, not Stata**
 
