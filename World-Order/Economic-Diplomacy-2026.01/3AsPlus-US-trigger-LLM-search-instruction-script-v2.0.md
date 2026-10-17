@@ -1,7 +1,7 @@
 ---
 fileName: 3AsPlus-US-trigger-LLM-search-instruction-script-v2.0.md
 Version: 2.0
-Last-edited: 2026.10.14.1552.Wed -- Danny Quah ( dq @ msm3u-202603.local )
+Last-edited: 2026.10.17.1816.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
 Status: Response-first collection instructions
 Created: 2026.10.13.1759.Tue
 ---
@@ -23,7 +23,7 @@ For each candidate, verify the date, actor, substantive action, source URL, stra
 For accepted events, create/merge Events, US Triggers, Trigger-Event Links, and Interim Results records. Populate Trigger Exposure only where exposure is independently documented; mark unsurveyed exposure cells `NOT_STARTED` or `PARTIAL`, never `NO`. Search the full 60-day interim window when elapsed; otherwise mark `WINDOW_INCOMPLETE`. Capture contemporaneous evidence for each side's movement; do not infer causal effects from succession or a joint bargain. Apply the same ID conventions as the trigger-first script.
 
 ## Stopping and reporting
-Unless instructed otherwise, stop after approximately **90-100 distinct qualifying response events**, or earlier when clear leads are exhausted; do not pad the sample. This is an event-count target, not a target for articles, triggers, packages, or settlements. Do not claim a completed US-trigger census. Report search coverage, incomplete windows, source-family concentration, weak links, and unresolved coding cases. Output exactly as prescribed by `3AsPlus-US-trigger-output-format-v1.0.md`.  
+Unless instructed otherwise, stop after approximately **100000 distinct qualifying response events**, or earlier when clear leads are exhausted; do not pad the sample. This is an event-count target, not a target for articles, triggers, packages, or settlements. Do not claim a completed US-trigger census. Report search coverage, incomplete windows, source-family concentration, weak links, and unresolved coding cases. Output exactly as prescribed by `3AsPlus-US-trigger-output-format-v1.0.md`.  
 
 
 <!--

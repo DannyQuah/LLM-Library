@@ -1,6 +1,6 @@
 ---
 fileName: Presentation-norms-2026.09.md
-Last-edited: 2026.10.12.1118.Mon -- Danny Quah ( dq @ msm3u-202603.local )
+Last-edited: 2026.10.17.1800.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -28,8 +28,8 @@ You already have a sense of my voice from my other writings that you have read o
 4. Make the fonts as big as possible without running right into boundaries; leave plenty of white space.
 5. Put sufficient space below headers and headlines so that there is clear separation.
 6. Where mathematical typography is required, use LaTeX-style mathematical typesetting with serif mathematical symbols distinct from the Noto Sans text.
-6. Use master-based footers. On the left, put the short deck title as ordinary master text. On the right, use PowerPoint's genuine dynamic slide-number placeholder for the current slide number, followed by ordinary master text containing “ / N”, where N is the verified final number of slides. Do NOT make “ / N” a PowerPoint footer (ftr) placeholder, because PowerPoint may suppress that placeholder in Normal/Slide Show view. Tighten the spacing between the slide number and the " / N". After generating the deck, verify the footer in rendered Normal view and in the exported PDF, not just in Slide Master view.
-7. If it's appropriate---say for a teaching class but obviously not in a business- or policy-presentation---explicitly indicate where there is a break for discussion.
+7. Use master-based footers. On the left, put the short deck title as ordinary master text. On the right, use PowerPoint's genuine dynamic slide-number placeholder for the current slide number, followed by ordinary master text containing “ / N”, where N is the verified final number of slides. Do NOT make “ / N” a PowerPoint footer (ftr) placeholder, because PowerPoint may suppress that placeholder in Normal/Slide Show view. Tighten the spacing between the slide number and the " / N". After generating the deck, verify the footer in rendered Normal view and in the exported PDF, not just in Slide Master view.
+8. If it's appropriate---say for a teaching class but obviously not in a business- or policy-presentation---explicitly indicate where there is a break for discussion.
 
 
 
