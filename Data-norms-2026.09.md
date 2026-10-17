@@ -1,6 +1,6 @@
 ---
 fileName: Data-norms-2026.09.md
-Last-edited: 2026.10.17.1742.Sat -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.18.0653.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Notes
 Tags:
   - LLM
@@ -14,6 +14,9 @@ This document is definitive as the controlling statement of my norms for data ma
 
 **Output**  
 1. Render diagrams using Mermaid wherever possible so I can copypaste output directly into Obsidian.  Ensure Mermaid code blocks are strictly formatted as raw code syntax so I can copy the text directly.
+2. When revising Markdown scripts or updating to new versions, as far as possible retain (if found) my YAML "Last-edited: ","Created: ", and "Title: " lines; update (if found) the "Last-edited: " and "Title: " values.  However, don't create these lines if not already there.
+3. Write dates as YYYY.MM.DD preferably, or else if necessary the ISO format YYYY-MM-DD; dates written any other way cannot be sorted reliably.  
+
 
 **R, not Stata**
 
@@ -22,10 +25,12 @@ This document is definitive as the controlling statement of my norms for data ma
 3.  For graphs, use `ggthemes::theme_economist()`;
 4.  For graphs, `base_size` at least 12 unless the output becomes overly crowded, in which case go down one `base_size`.
 
+
 **Spreadsheets**  
+
 1.  Whenever counts or other induced results are needed, use formulas unless it's not possible to do so.  This is so that any relevant changes get properly propagated and displayed.
 
-Write dates as YYYY.MM.DD preferably, or else if necessary the ISO format YYYY-MM-DD; dates written any other way cannot be sorted reliably.  
+
 
 
 <!--

@@ -1,10 +1,10 @@
 ---
-fileName: 3AsPlus-US-trigger-output-format-v1.0.md
-Version: 1.0
+fileName: 3AsPlus-US-trigger-output-format-v1.1.md
+Version: 1.1
 Last-edited: 2026.10.14.1559.Wed -- Danny Quah ( dq @ msm3u-202603.local )
 Status: Shared workbook specification for response-first and trigger-first collection
 Created: 2026.10.14.1200.Wed 
-Title: 3AsPlus-US-trigger-output-format-v1.0
+Title: 3AsPlus-US-trigger-output-format-v1.1
 ---
 # 3AsPlus: Integrated output workbook specification
 
@@ -74,10 +74,39 @@ Retain literal queries and searches yielding no events. Record whether a given j
 7. Formula summaries recalculate and agree with raw data; explicitly verify unique-count logic (distinct IDs), rather than summing duplicated linked rows.
 8. Report discovered events separately from the population of adequately searched trigger-exposure cells; do not infer responsiveness or causal effects from response-side counts alone.
 
+## Tiered outcome-screening extensions (v1.1)
+
+The original ten-tab structure and fields above remain controlling. Routine collection follows `3AsPlus-Tier1-outcome-screening-v1.0.md`; full outcome investigation uses `3AsPlus-US-trigger-Tier2-60day-investigation-v1.0.md`.
+
+## Additional fields — append to Interim Results after existing `coding_notes`
+`outcome_research_tier` (`TIER1_SCREEN|TIER2_FULL`), `outcome_search_status` (`NOT_STARTED|SCREEN_COMPLETE|FULL_COMPLETE|PARTIAL|BLOCKED`), `outcome_ascertainment` (`DOCUMENTED_MOVEMENT|DOCUMENTED_CONTINUITY|PROCESS_ONLY|NO_VERIFIABLE_FOLLOWUP|INDETERMINATE|NOT_APPLICABLE`), `screen_queries_count` (integer), `screen_sources_checked_count` (integer), `full_60day_verified` (0/1), `screen_limitations` (text), `outcome_review_priority` (`STANDARD|UNCERTAIN_BASELINE|CONFLICTING_SOURCES|SHARED_SETTLEMENT|POTENTIAL_EPISODE_STUDY|OTHER`), `tier2_sample_plan_id` (nullable), `tier2_inclusion_probability` (nullable numeric), `tier2_analysis_weight` (nullable numeric).
+
+`window_completeness` retains its existing meaning: calendar horizon elapsed vs not elapsed. **It does not imply search completeness.** `full_60day_verified=1` requires Tier 2 full completion and elapsed day 60. `NO_VERIFIABLE_FOLLOWUP` is not equivalent to `UNCHANGED`. Do not infer US or TN movement from the outcome-ascertainment label.
+
+## Additional fields — append to Search Log after existing `search_notes`
+`batch_id` (stable string), `workflow_stage` (`DISCOVERY|TRIGGER_VERIFICATION|EXPOSURE_VERIFICATION|RESPONSE_VERIFICATION|STRATEGY_CODING|TIER1_SCREEN|TIER2_FULL|WORKBOOK_QA`), `elapsed_seconds` (measured numeric or blank), `source_fetches_count` (measured integer or blank), `documents_reused_count` (measured integer or blank), `measurement_notes` (state unavailable counters, methodology and caveats).
+
+## Sampling manifest and stratification metadata
+Retain the **ten-tab workbook**. Record Tier 2 selection and design in an external, versioned `sample_plan_id` manifest; record plan ID, inclusion probability and analysis weight on sampled Interim Results rows. The manifest must specify the frozen frame, eligibility, strata, seed, target n, cluster and replacement rules, selections and exclusions. Do not add an unannounced eleventh tab or silently mix purposive cases with probability-sampled cases.
+
+## Summary and denominator requirements
+Continue all v1.0 metrics. **Separate Tier 1 positively documented dispositions, Tier 1 unresolved screens, Tier 2 fully investigated outcomes, and Tier 2 partial/blocked cases.** Every conditional probability table must identify its denominator, link threshold, observation horizon and ascertainment tier. Never treat Tier 1 outcomes as complete-case probability estimates without a selection-bias caveat. Event-weighted and distinct-settlement-weighted outcomes remain separate. For Proposition 3, reserve primary 60-day comparisons for the Tier 2 design-based sample; Tier 1 is broad descriptive context only.
+
+## Validation additions
+- `outcome_search_status=FULL_COMPLETE` implies `outcome_research_tier=TIER2_FULL`, `full_60day_verified=1`, and elapsed day 60.
+- `outcome_search_status=SCREEN_COMPLETE` implies `outcome_research_tier=TIER1_SCREEN` and `full_60day_verified=0`.
+- `UNCHANGED` requires documented baseline and affirmative continuity evidence, not an empty search result.
+- No Tier 2 probability/weight values without a frozen sample-plan identifier.
+- Search Log effort counters are measured, never fabricated; unknown is blank, not zero.
+- Checkpoint updates preserve original event IDs and do not duplicate shared settlements or action stages.
+
+## Output per run
+Provide workbook, coverage, counts of new/updated distinct IDs, source concentration, tier-specific ascertainment and uncertainty, search resource metrics where measured, checkpoint identifier, and uncompleted batch scope. Avoid causal claims.
+
 ## Required outputs on each collection run
 Provide the workbook, its number of new/updated unique events, triggers, exposure cells, links, and settlements; the search route and coverage; source concentration; unresolved coding issues; and a brief data-quality statement. Stop according to the invoking script's rule; never pad observations to reach a quota.
 
 
 <!--
-   Invisible section // 3AsPlus-US-trigger-output-format-v1.0.md
+   Invisible section // 3AsPlus-US-trigger-output-format-v1.1.md
 -->
