@@ -2,7 +2,7 @@
 fileName: 3AsPlus-category-coding-v1.2.md
 title: 3AsPlus-category-coding-v1.2
 Version: 1.2
-Last-edited: 2026.10.18.Sun -- Protocol revision (3AsPlus industrial-policy expansion)
+Last-edited: 2026.10.18.1033.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Scope: Asian Third-Nation responses to US geoeconomic statecraft; extensible to other Great Powers
 Status: Operational instructions for human research assistants and LLM-assisted coding
 Created: 2026.10.14.0533.Wed -- Danny Quah ( dq @ mbpm5-202603.local )
@@ -303,13 +303,13 @@ Counts in a **response-side census** represent recorded realized geoeconomic int
 
 ## v1.1 integration with dual search routes
 
-Use the shared workbook specification `3AsPlus-US-trigger-output-format-v1.0.md`. Apply the same strategy definitions regardless of whether an event is discovered response-first or trigger-first. Link each qualifying event to all supported triggers in `Trigger-Event Links`; do not duplicate an event when rediscovered. Record `discovery_route` and stable `underlying_policy_action_id`, `policy_package_id`, and `event_id`. A regional-bloc event is one bloc-level action; do not multiply it across member states. `Trigger Exposure` is the separate unit for documented jurisdiction exposure and completed searches finding no response. An event can be linked to multiple triggers without creating multiple event rows. `OTHER` remains substantive residual and is never a substitute for a search with no response found.
+Use the shared workbook specification in the latest US trigger output format file.  Apply the same strategy definitions regardless of whether an event is discovered response-first or trigger-first. Link each qualifying event to all supported triggers in `Trigger-Event Links`; do not duplicate an event when rediscovered. Record `discovery_route` and stable `underlying_policy_action_id`, `policy_package_id`, and `event_id`. A regional-bloc event is one bloc-level action; do not multiply it across member states. `Trigger Exposure` is the separate unit for documented jurisdiction exposure and completed searches finding no response. An event can be linked to multiple triggers without creating multiple event rows. `OTHER` remains substantive residual and is never a substitute for a search with no response found.
 
+## Cross-protocol illustration: Korea and US industrial policy
+
+The Korean government's 2022 opposition to the Inflation Reduction Act's discriminatory electric-vehicle tax-credit and North American assembly requirements illustrates `Resistance=1` to a US `INDUSTRIAL_POLICY` trigger, with `DOMESTIC_CONTENT` and `SUBSIDY_TAX_CREDIT` instrument details. Do not force the US measure into an investment restriction or infer Adaptation from Korea's objection alone. Separately dated Korean concessions, restructuring or coalitions require independent evidence and coding. The illustration shows that discriminatory inducements can generate opposition without a simple coercion/compliance binary.
 
 <!--
    Invisible section // 3AsPlus-category-coding-v1.2.md
 -->
 
-## Cross-protocol illustration: Korea and US industrial policy
-
-The Korean government's 2022 opposition to the Inflation Reduction Act's discriminatory electric-vehicle tax-credit and North American assembly requirements illustrates `Resistance=1` to a US `INDUSTRIAL_POLICY` trigger, with `DOMESTIC_CONTENT` and `SUBSIDY_TAX_CREDIT` instrument details. Do not force the US measure into an investment restriction or infer Adaptation from Korea's objection alone. Separately dated Korean concessions, restructuring or coalitions require independent evidence and coding. The illustration shows that discriminatory inducements can generate opposition without a simple coercion/compliance binary.

@@ -2,7 +2,7 @@
 fileName: Interim-Results-coding-v1.2.md
 title: Interim-Results-coding-v1.2
 Version: 1.2
-Last-edited: 2026.10.18.Sun -- Protocol revision (3AsPlus industrial-policy expansion)
+Last-edited: 2026.10.18.1032.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
 Type: Research coding protocol
 Status: Operational instructions for human research assistants and LLM-assisted coding
 Companion: 3AsPlus-category-coding-v1.2.md
@@ -248,7 +248,13 @@ A 60-day window is structurally better suited to bargaining than to domestic res
 
 ## v1.1 integration with dual search routes
 
-Use `3AsPlus-US-trigger-output-format-v1.0.md` for the shared workbook fields and IDs. Each response event has one 60-day follow-up record, even when it links to several US triggers; identify the primary relevant baseline and explain any multi-trigger complexity. Use `shared_settlement_id` to avoid interpreting one US decision repeated across several response events as several independent concessions. The interim-results protocol applies identically to responses discovered via response-first or trigger-first search. `NO` response in a completed exposure-cell search is not an interim-results record and should not be assigned a US Movement outcome.
+Use information the latest US trigger output format file for the shared workbook fields and IDs. Each response event has one 60-day follow-up record, even when it links to several US triggers; identify the primary relevant baseline and explain any multi-trigger complexity. Use `shared_settlement_id` to avoid interpreting one US decision repeated across several response events as several independent concessions. The interim-results protocol applies identically to responses discovered via response-first or trigger-first search. `NO` response in a completed exposure-cell search is not an interim-results record and should not be assigned a US Movement outcome.
+
+
+## v1.2 integration note
+
+The trigger taxonomy now uses `INDUSTRIAL_POLICY` (including investment restrictions) as its fourth top-level modality. This does not alter US Movement, Third-Nation Movement, process-status or 60-day outcome definitions. Japan's 2023 differentiated semiconductor alignment and Korea's 2022 resistance to IRA conditions are strategy/trigger illustrations; neither predetermines a US interim result.
+
 
 
 <!--
@@ -256,7 +262,3 @@ Use `3AsPlus-US-trigger-output-format-v1.0.md` for the shared workbook fields an
 -->
 
 
-
-## v1.2 integration note
-
-The trigger taxonomy now uses `INDUSTRIAL_POLICY` (including investment restrictions) as its fourth top-level modality. This does not alter US Movement, Third-Nation Movement, process-status or 60-day outcome definitions. Japan's 2023 differentiated semiconductor alignment and Korea's 2022 resistance to IRA conditions are strategy/trigger illustrations; neither predetermines a US interim result.
