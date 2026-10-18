@@ -1,10 +1,10 @@
 ---
-fileName: 3AsPlus-US-trigger-output-format-v1.1.md
-Version: 1.1
-Last-edited: 2026.10.14.1559.Wed -- Danny Quah ( dq @ msm3u-202603.local )
+fileName: 3AsPlus-US-trigger-output-format-v1.2.md
+Version: 1.2
+Last-edited: 2026.10.18.Sun -- Protocol revision (3AsPlus industrial-policy expansion)
 Status: Shared workbook specification for response-first and trigger-first collection
 Created: 2026.10.14.1200.Wed 
-Title: 3AsPlus-US-trigger-output-format-v1.1
+Title: 3AsPlus-US-trigger-output-format-v1.2
 ---
 # 3AsPlus: Integrated output workbook specification
 
@@ -19,12 +19,16 @@ Both search routes populate **one integrated workbook**, not separate incompatib
 
 ## Worksheet 1: Events (one substantive dated Third-Nation response event per row)
 Fields in order:
-`event_id`, `date`, `country_or_bloc`, `actor_name`, `actor_level` (`NATIONAL|REGIONAL_BLOC|PLURILATERAL_GROUP`), `underlying_policy_action_id`, `policy_package_id`, `action_stage` (`ANNOUNCED|FORMALLY_ADOPTED|IMPLEMENTED|WITHDRAWN`), `discovery_route` (`RESPONSE_FIRST|TRIGGER_FIRST|BOTH`), `primary_us_trigger_id` (nullable convenience field; authoritative links live in Trigger-Event Links), `acquiescence`, `adaptation`, `aggregation`, `resistance`, `other`, `other_type`, `policy_instrument`, `action_description`, `headline`, `source_outlet`, `source_family`, `source_URL`, `key_quote_for_categorization`, `classification_confidence` (`High|Med|Low`), `coding_notes`, `any_3A` (formula), `number_of_strategies` (formula; four substantive modalities, excluding OTHER), `multi_strategy` (formula, >=2 substantive modalities).
+`event_id`, `date`, `country_or_bloc`, `actor_name`, `actor_level` (`NATIONAL|REGIONAL_BLOC|PLURILATERAL_GROUP`), `underlying_policy_action_id`, `policy_package_id`, `action_stage` (`ANNOUNCED|FORMALLY_ADOPTED|IMPLEMENTED|WITHDRAWN`), `discovery_route` (`RESPONSE_FIRST|TRIGGER_FIRST|BOTH`), `primary_us_trigger_id` (nullable convenience field; authoritative links live in Trigger-Event Links), `acquiescence`, `acquiescence_form` (`CONVERGENT|DIFFERENTIATED|UNCLEAR|NOT_APPLICABLE`), `adaptation`, `aggregation`, `resistance`, `other`, `other_type`, `policy_instrument`, `action_description`, `headline`, `source_outlet`, `source_family`, `source_URL`, `key_quote_for_categorization`, `classification_confidence` (`High|Med|Low`), `coding_notes`, `any_3A` (formula), `number_of_strategies` (formula; four substantive modalities, excluding OTHER), `multi_strategy` (formula, >=2 substantive modalities).
+
+Set `acquiescence_form=NOT_APPLICABLE` when `acquiescence=0`. `DIFFERENTIATED` denotes documented accommodation of a named US objective with materially distinct national scope, legal framing or implementation; a public denial is evidence to evaluate, not an automatic exclusion. Japan’s 2023 semiconductor-equipment controls are a candidate differentiated-acquiescence case requiring a verified US request/understanding, Japan’s action, and contemporaneous qualifications. Do not code Japan–US–Netherlands cooperation as Aggregation relative to US pressure merely because several states participated.
 
 Each binary category may be 1 independently. OTHER is 1 only when all four substantive modalities are 0. Count an ASEAN-wide joint statement once as a bloc event, not ten national actions. Distinct country actions receive distinct event IDs. Separate stages of one underlying policy are linked by `underlying_policy_action_id` and should not automatically count as distinct substantive responses. A policy-package identifier links different instruments in one negotiated package.
 
 ## Worksheet 2: US Triggers (one dated substantive US action per row)
-`us_trigger_id`, `trigger_episode_id`, `trigger_date`, `us_agency`, `trigger_action_stage` (`INVESTIGATION|PROPOSAL|ANNOUNCEMENT|FINAL_RULE|IMPLEMENTATION|AMENDMENT|SUSPENSION|WITHDRAWAL|OTHER`), `primary_trigger_modality` (`TRADE_POLICY|TECHNOLOGY_CONTROLS|FINANCIAL_SANCTIONS|INVESTMENT_RESTRICTIONS`), `trade_policy` (0/1), `technology_controls` (0/1), `financial_sanctions` (0/1), `investment_restrictions` (0/1), `trigger_instrument`, `trigger_mode` (`RESTRICTION|THREAT|CONDITIONAL_INDUCEMENT|COOPERATIVE_OFFER|OTHER`), `target_country_or_bloc`, `affected_countries_description`, `trigger_description`, `announced_or_effective`, `effective_date`, `baseline_policy`, `trigger_magnitude`, `trigger_source_outlet`, `trigger_source_family`, `trigger_source_URL`, `trigger_key_quote`, `trigger_confidence`, `discovery_route`, `search_coverage_status`, `coding_notes`.
+`us_trigger_id`, `trigger_episode_id`, `trigger_date`, `us_agency`, `trigger_action_stage` (`INVESTIGATION|PROPOSAL|ANNOUNCEMENT|FINAL_RULE|IMPLEMENTATION|AMENDMENT|SUSPENSION|WITHDRAWAL|OTHER`), `primary_trigger_modality` (`TRADE_POLICY|TECHNOLOGY_CONTROLS|FINANCIAL_SANCTIONS|INDUSTRIAL_POLICY`), `trade_policy` (0/1), `technology_controls` (0/1), `financial_sanctions` (0/1), `industrial_policy` (0/1), `trigger_instrument`, `trigger_mode` (`RESTRICTION|THREAT|CONDITIONAL_INDUCEMENT|COOPERATIVE_OFFER|OTHER`), `target_country_or_bloc`, `affected_countries_description`, `trigger_description`, `announced_or_effective`, `effective_date`, `baseline_policy`, `trigger_magnitude`, `trigger_source_outlet`, `trigger_source_family`, `trigger_source_URL`, `trigger_key_quote`, `trigger_confidence`, `discovery_route`, `search_coverage_status`, `coding_notes`.
+
+**Industrial-policy boundary and instrument detail:** `INDUSTRIAL_POLICY` includes `SUBSIDY_TAX_CREDIT`, `DOMESTIC_CONTENT`, `PROCUREMENT_PREFERENCE`, `INVESTMENT_INCENTIVE`, `INBOUND_INVESTMENT_RESTRICTION`, `OUTBOUND_INVESTMENT_RESTRICTION`, and `OTHER_INDUSTRIAL_POLICY`. These are controlled `trigger_instrument` values (or documented combinations where more than one instrument is present), not additional top-level modality columns. Include only measures with a documented external geoeconomic mechanism (e.g., nationality or location conditions, foreign strategic-supply-chain objectives, or cross-border investment constraints). General domestic subsidies without that connection are excluded. If a measure contains separately identifiable trade and industrial-policy instruments, code both applicable binary indicators and choose a documented primary modality. All future data use the current four modalities without storing obsolete investment-restriction top-level fields or parallel historical codes.
 
 The four modalities are non-exclusive; classify the primary modality once, with other applicable indicators. Keep technology export controls out of the trade-policy indicator unless an independently identifiable trade-policy instrument is also present. A US action's `trigger_episode_id` links sequential investigation, proposal, determination, implementation, and amendment stages. Do not multiply one episode into several independent shocks without reporting that counting choice.
 
@@ -41,18 +45,18 @@ Unique key is `event_id + us_trigger_id`; no duplicate links. A contextual or we
 ## Worksheet 5: Interim Results (one 60-day follow-up record per Events event)
 `event_id`, `us_trigger_id` (primary reference, nullable), `policy_package_id`, `shared_settlement_id`, `response_date`, `baseline_date`, `baseline_US_position`, `window_end_date` (formula = response date + 60 days), `window_completeness` (`COMPLETE|WINDOW_INCOMPLETE`), `US_movement` (`RELAXES|UNCHANGED|TIGHTENS|MIXED|UNCLEAR|NOT_APPLICABLE`), `US_movement_description`, `TN_movement` (`CONCEDES|UNCHANGED|HARDENS|RESTRUCTURES|MIXED|UNCLEAR|NOT_APPLICABLE`), `TN_movement_timing` (`AT_RESPONSE|AFTER_RESPONSE|BOTH|NONE_OR_NA`), `TN_action_stage` (`ANNOUNCED|FORMALLY_ADOPTED|IMPLEMENTED|WITHDRAWN|NO_NEW_STAGE`), `TN_movement_description`, `process_status_primary`, `process_status_secondary`, `response_link_evidence` (`EXPLICIT_CONDITIONALITY|DOCUMENTED_NEGOTIATION|TEMPORAL_ASSOCIATION|NO_DOCUMENTED_LINK|INSUFFICIENT_EVIDENCE|NOT_APPLICABLE`), `outcome_date`, `within_window_sequence`, `interim_results`, `outcome_source_URL`, `supporting_quote`, `outcome_confidence`, `search_coverage`, `later_developments`, `coding_notes`.
 
-Process-status values: `SETTLED|IMPLEMENTATION|MONITORING|NEGOTIATION|LITIGATION|INVESTIGATION|INSTITUTION_BUILDING|NO_OBSERVED_FOLLOWUP|OTHER_PROCESS`. A compromise is **derived** from bilateral movements, not a primitive result. Implementation/monitoring does not imply US policy change. Code the day-60 disposition against the documented pre-response baseline and preserve intervening changes. Distinguish `NOT_APPLICABLE` from `UNCLEAR`, and incomplete windows from observed non-changes. Shared settlements must carry the same ID; avoid counting the same US decision repeatedly as independent relief. Follow `Interim-Results-coding-v1.1.md`.
+Process-status values: `SETTLED|IMPLEMENTATION|MONITORING|NEGOTIATION|LITIGATION|INVESTIGATION|INSTITUTION_BUILDING|NO_OBSERVED_FOLLOWUP|OTHER_PROCESS`. A compromise is **derived** from bilateral movements, not a primitive result. Implementation/monitoring does not imply US policy change. Code the day-60 disposition against the documented pre-response baseline and preserve intervening changes. Distinguish `NOT_APPLICABLE` from `UNCLEAR`, and incomplete windows from observed non-changes. Shared settlements must carry the same ID; avoid counting the same US decision repeatedly as independent relief. Follow `Interim-Results-coding-v1.2.md`.
 
 ## Worksheet 6: Summary (one formula-driven metric or cross-tab cell per row)
 Include counts of distinct events, policy actions, policy packages, US trigger actions, trigger episodes, exposure cells, unique settlements; totals and shares for five category indicators, any-3A, Resistance, OTHER, multi-strategy events; pairwise overlaps; modality x strategy; strategy x US_movement; strategy x process_status; US_movement x TN_movement; response-link evidence; source-family concentration (>3 event reports); missingness, low confidence, incomplete windows, and coverage by search route. Every rate must show its denominator and exclusions. Distinguish event-weighted and distinct-settlement-weighted results. For 60-day outcomes, exclude incomplete windows from complete-window rate denominators and report them separately.
 
 ## Worksheet 7: Monthly Timeline (one calendar month per row, including zero months)
-`month`, `us_administration`, `total_events`, `acquiescence_events`, `adaptation_events`, `aggregation_events`, `resistance_events`, `other_events`, `any_3A_events`, `multi_strategy_events`, `us_trigger_actions`, `us_trigger_episodes_first_seen`, `trade_triggers`, `technology_triggers`, `financial_triggers`, `investment_triggers`, `significant_events`.
+`month`, `us_administration`, `total_events`, `acquiescence_events`, `adaptation_events`, `aggregation_events`, `resistance_events`, `other_events`, `any_3A_events`, `multi_strategy_events`, `us_trigger_actions`, `us_trigger_episodes_first_seen`, `trade_triggers`, `technology_triggers`, `financial_triggers`, `industrial_policy_triggers`, `significant_events`.
 
 Counts of each category sum its 0/1 column; a multi-coded event contributes once to **each applicable category** but once to `total_events`. Modality counts likewise overlap where multi-coded. Timeline annotations are contextual, not additional data rows. Record data-coverage limitations alongside charts; a zero event count is not proof of zero underlying activity.
 
 ## Worksheet 8: Annual Observations (one calendar year per row, including zero years)
-`year`, `us_administration_or_transition`, `total_events`, `acquiescence_events`, `adaptation_events`, `aggregation_events`, `resistance_events`, `other_events`, `any_3A_events`, `multi_strategy_events`, all ten unordered pairwise intersections among `acquiescence|adaptation|aggregation|resistance|other`, `unique_policy_packages`, `unique_settlements`, `us_trigger_actions`, `us_trigger_episodes_first_seen`, `trade_triggers`, `technology_triggers`, `financial_triggers`, `investment_triggers`, `exposure_cells_searched`, `us_relaxes_events`, `us_unchanged_events`, `us_tightens_events`, `annual_highlights` (last column).
+`year`, `us_administration_or_transition`, `total_events`, `acquiescence_events`, `adaptation_events`, `aggregation_events`, `resistance_events`, `other_events`, `any_3A_events`, `multi_strategy_events`, all ten unordered pairwise intersections among `acquiescence|adaptation|aggregation|resistance|other`, `unique_policy_packages`, `unique_settlements`, `us_trigger_actions`, `us_trigger_episodes_first_seen`, `trade_triggers`, `technology_triggers`, `financial_triggers`, `industrial_policy_triggers`, `exposure_cells_searched`, `us_relaxes_events`, `us_unchanged_events`, `us_tightens_events`, `annual_highlights` (last column).
 
 Year is based on the event date for response counts, and trigger date for trigger counts. Pairwise columns count intersections, not unique combined events; `multi_strategy_events` counts distinct events with two or more substantive strategy codes. For administrations crossing a year, retain exact dates for analysis; do not force a year to belong entirely to one administration.
 
@@ -65,6 +69,9 @@ Year is based on the event date for response counts, and trigger date for trigge
 Retain literal queries and searches yielding no events. Record whether a given jurisdiction-trigger exposure cell has received the prescribed search battery. Do not confuse a completed *search attempt* with a completed *exposure-cell search*.
 
 ## Validation and QA
+- Verify `acquiescence_form` is populated consistently with `acquiescence`, and that differentiated cases include both US-demand evidence and the documented implementation differences.
+- Industrial-policy trigger records must identify an external economic-statecraft mechanism; retain investment restrictions as instruments, not a fifth top-level modality.
+
 1. All event IDs unique; all trigger IDs unique; all links point to existing IDs; all referenced exposure IDs point to the same trigger and appropriate jurisdiction.
 2. No duplicate `event_id+us_trigger_id` link rows; no duplicate `us_trigger_id+country_or_bloc` exposure rows unless justified by explicitly separate jurisdiction-level entities.
 3. OTHER=1 implies all four substantive codes 0. Multi-coding otherwise allowed.
@@ -76,7 +83,7 @@ Retain literal queries and searches yielding no events. Record whether a given j
 
 ## Tiered outcome-screening extensions (v1.1)
 
-The original ten-tab structure and fields above remain controlling. Routine collection follows `3AsPlus-Tier1-outcome-screening-v1.0.md`; full outcome investigation uses `3AsPlus-US-trigger-Tier2-60day-investigation-v1.0.md`.
+The original ten-tab structure and fields above remain controlling. Routine collection follows `3AsPlus-Tier1-outcome-screening-v1.1.md`; full outcome investigation uses `3AsPlus-US-trigger-Tier2-60day-investigation-v1.1.md`.
 
 ## Additional fields — append to Interim Results after existing `coding_notes`
 `outcome_research_tier` (`TIER1_SCREEN|TIER2_FULL`), `outcome_search_status` (`NOT_STARTED|SCREEN_COMPLETE|FULL_COMPLETE|PARTIAL|BLOCKED`), `outcome_ascertainment` (`DOCUMENTED_MOVEMENT|DOCUMENTED_CONTINUITY|PROCESS_ONLY|NO_VERIFIABLE_FOLLOWUP|INDETERMINATE|NOT_APPLICABLE`), `screen_queries_count` (integer), `screen_sources_checked_count` (integer), `full_60day_verified` (0/1), `screen_limitations` (text), `outcome_review_priority` (`STANDARD|UNCERTAIN_BASELINE|CONFLICTING_SOURCES|SHARED_SETTLEMENT|POTENTIAL_EPISODE_STUDY|OTHER`), `tier2_sample_plan_id` (nullable), `tier2_inclusion_probability` (nullable numeric), `tier2_analysis_weight` (nullable numeric).
@@ -108,5 +115,5 @@ Provide the workbook, its number of new/updated unique events, triggers, exposur
 
 
 <!--
-   Invisible section // 3AsPlus-US-trigger-output-format-v1.1.md
+   Invisible section // 3AsPlus-US-trigger-output-format-v1.2.md
 -->

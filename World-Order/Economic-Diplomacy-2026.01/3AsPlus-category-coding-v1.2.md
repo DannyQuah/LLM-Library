@@ -1,13 +1,13 @@
 ---
-fileName: 3AsPlus-category-coding-v1.1.md
-title: 3AsPlus-category-coding-v1.1
-Version: 1.1
-Last-edited: 2026.10.14.1725.Wed -- Danny Quah ( dq @ msm3u-202603.local )
+fileName: 3AsPlus-category-coding-v1.2.md
+title: 3AsPlus-category-coding-v1.2
+Version: 1.2
+Last-edited: 2026.10.18.Sun -- Protocol revision (3AsPlus industrial-policy expansion)
 Scope: Asian Third-Nation responses to US geoeconomic statecraft; extensible to other Great Powers
 Status: Operational instructions for human research assistants and LLM-assisted coding
 Created: 2026.10.14.0533.Wed -- Danny Quah ( dq @ mbpm5-202603.local )
 ---
-# 3AsPlus: Category Coding Protocol — v1.1
+# 3AsPlus: Category Coding Protocol — v1.2
 
 **Purpose.** Classify observable Third-Nation strategic responses as Acquiescence, Adaptation, Aggregation, Resistance, and (only when necessary) OTHER. The 3As remain a distinct conceptual framework; Resistance tests its coverage rather than being renamed as a fourth A. The categories are non-exclusive. Do not classify outcomes as strategies.
 
@@ -55,6 +55,12 @@ The concession need not succeed in securing US relief. Acquiescence describes th
 A concession may be announced before implementation. Record the commitment when announced, and separately record implementation if it constitutes a substantively distinct action.
 
 Acquiescence can coexist with Adaptation and Aggregation. A government may concede tariff access to Washington while restructuring domestic industries and negotiating alternative trade arrangements with other countries.
+
+### Differentiated versus convergent Acquiescence
+
+When a documented US demand or strategic understanding is followed by a substantive Third-Nation accommodation on the same axis, code Acquiescence even if national controls differ in destination coverage, re-export reach, person-based controls, legal basis, or public presentation. Record `acquiescence_form=CONVERGENT` where instruments substantially match; `DIFFERENTIATED` where the common objective is documented but implementation meaningfully differs; `UNCLEAR` where evidence does not establish the form. A public denial of following the United States is material counterevidence to assess, **not** a veto; neither apparent technical similarity nor US praise alone suffices to prove acquiescence.
+
+**Illustrative adjudication — Japan, 2023 semiconductor equipment:** Evaluate the reported January 2023 US–Japan–Netherlands understanding alongside Japan's subsequent controls on 23 categories of semiconductor-manufacturing equipment, and Japan's destination-neutral framing and differences from US re-export/person controls. If contemporaneous sources establish the specific US request and Japan's responsive commitment, code `acquiescence=1`, `acquiescence_form=DIFFERENTIATED`, with a reasoned evidentiary link and documented qualifications. Do not infer Aggregation from cooperation with the pressuring Great Power. This is a coding illustration, not a substitute for source verification in a collection run.
 
 ### Exclusions and borderline cases
 
@@ -255,7 +261,7 @@ Code `OTHER = 1` only for an observed, substantively relevant response that fits
 
 ### 1. Code behaviour, not eventual success
 
-A concession remains Acquiescence if Washington refuses relief; a resilience programme remains Adaptation if economic performance later disappoints; an agreement remains Aggregation even if it subsequently fails. Do not infer motives unsupported by contemporary evidence. Interim outcomes are coded separately under `Interim-Results-coding-v1.1.md`.
+A concession remains Acquiescence if Washington refuses relief; a resilience programme remains Adaptation if economic performance later disappoints; an agreement remains Aggregation even if it subsequently fails. Do not infer motives unsupported by contemporary evidence. Interim outcomes are coded separately under `Interim-Results-coding-v1.2.md`.
 
 ### 2. Define event boundaries and implementation stages
 
@@ -301,5 +307,9 @@ Use the shared workbook specification `3AsPlus-US-trigger-output-format-v1.0.md`
 
 
 <!--
-   Invisible section // 3AsPlus-category-coding-v1.1.md
+   Invisible section // 3AsPlus-category-coding-v1.2.md
 -->
+
+## Cross-protocol illustration: Korea and US industrial policy
+
+The Korean government's 2022 opposition to the Inflation Reduction Act's discriminatory electric-vehicle tax-credit and North American assembly requirements illustrates `Resistance=1` to a US `INDUSTRIAL_POLICY` trigger, with `DOMESTIC_CONTENT` and `SUBSIDY_TAX_CREDIT` instrument details. Do not force the US measure into an investment restriction or infer Adaptation from Korea's objection alone. Separately dated Korean concessions, restructuring or coalitions require independent evidence and coding. The illustration shows that discriminatory inducements can generate opposition without a simple coercion/compliance binary.

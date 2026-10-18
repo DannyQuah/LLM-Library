@@ -1,14 +1,14 @@
 ---
-fileName: Interim-Results-coding-v1.1.md
-title: Interim-Results-coding-v1.1
-Version: 1.1
-Last-edited: 2026.10.14.1727.Wed -- Danny Quah ( dq @ msm3u-202603.local )
+fileName: Interim-Results-coding-v1.2.md
+title: Interim-Results-coding-v1.2
+Version: 1.2
+Last-edited: 2026.10.18.Sun -- Protocol revision (3AsPlus industrial-policy expansion)
 Type: Research coding protocol
 Status: Operational instructions for human research assistants and LLM-assisted coding
-Companion: 3AsPlus-category-coding-v1.1.md
+Companion: 3AsPlus-category-coding-v1.2.md
 Created: 2026.10.14.0533.Wed -- Danny Quah ( dq @ mbpm5-202603.local )
 ---
-# Interim Results: Coding Protocol — v1.1
+# Interim Results: Coding Protocol — v1.2
 
 ## A. Purpose, observation, and unit
 
@@ -222,7 +222,7 @@ A 60-day window is structurally better suited to bargaining than to domestic res
 
 ## J. RA / LLM WORKFLOW AND QUALITY ASSURANCE
 
-1. **Verify the original event** and the correct strategy coding under `3AsPlus-category-coding-v1.1.md`.
+1. **Verify the original event** and the correct strategy coding under `3AsPlus-category-coding-v1.2.md`.
 2. **Fix the baseline first.** Identify the dated US instrument, announced versus operative status, and measurable terms before looking for outcomes.
 3. **Search symmetrically.** Examine US and Third-Nation official sources, contemporary independent reporting, and local-language sources where useful, for the full window.
 4. **Create a chronology.** Record response date, simultaneous bargaining, substantive follow-ups, and the day-60 endpoint.
@@ -252,7 +252,11 @@ Use `3AsPlus-US-trigger-output-format-v1.0.md` for the shared workbook fields an
 
 
 <!--
-   Invisible section // Interim-Results-coding-v1.1.md
+   Invisible section // Interim-Results-coding-v1.2.md
 -->
 
 
+
+## v1.2 integration note
+
+The trigger taxonomy now uses `INDUSTRIAL_POLICY` (including investment restrictions) as its fourth top-level modality. This does not alter US Movement, Third-Nation Movement, process-status or 60-day outcome definitions. Japan's 2023 differentiated semiconductor alignment and Korea's 2022 resistance to IRA conditions are strategy/trigger illustrations; neither predetermines a US interim result.

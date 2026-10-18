@@ -1,16 +1,16 @@
 ---
-fileName: 3AsPlus-US-trigger-Tier2-60day-investigation-v1.0.md
-Version: 1.0
-Last-edited: 2026.10.18.0651.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
+fileName: 3AsPlus-US-trigger-Tier2-60day-investigation-v1.1.md
+Version: 1.1
+Last-edited: 2026.10.18.Sun -- Protocol revision (3AsPlus industrial-policy expansion)
 Status: Proposed operational protocol; not executed
 Created: 2026.10.18.0649.Sun 
-Title: 3AsPlus-US-trigger-Tier2-60day-investigation-v1.0
+Title: 3AsPlus-US-trigger-Tier2-60day-investigation-v1.1
 ---
 
 # Tier 2: full 60-day outcome investigation on a predeclared stratified subsample
 
 ## Controlling documents
-Follow `3AsPlus-category-coding-v1.1.md`, `Interim-Results-coding-v1.1.md`, `3AsPlus-sources-v1.0.md`, `3AsPlus-US-trigger-output-format-v1.1.md`, and `3AsPlus-Tier1-outcome-screening-v1.0.md`. This script does **not** search for new response events as its principal task; it revisits a frozen eligible frame assembled under the two Tier 1 search scripts. It never changes a strategy code merely to match a discovered outcome.
+Follow `3AsPlus-category-coding-v1.2.md`, `Interim-Results-coding-v1.2.md`, `3AsPlus-sources-v1.1.md`, `3AsPlus-US-trigger-output-format-v1.2.md`, and `3AsPlus-Tier1-outcome-screening-v1.1.md`. This script does **not** search for new response events as its principal task; it revisits a frozen eligible frame assembled under the two Tier 1 search scripts. It never changes a strategy code merely to match a discovered outcome.
 
 ## Predeclaration hooks — fill and freeze before searching outcomes
 - `sample_plan_id`: [REQUIRED unique identifier]
@@ -31,7 +31,7 @@ Follow `3AsPlus-category-coding-v1.1.md`, `Interim-Results-coding-v1.1.md`, `3As
 **Do not begin Tier 2 searches until these fields are fixed in a dated sampling-plan record.** If some strata have too few cases, document shortfalls and revise the plan *before* inspecting outcomes. Sampling on known US-relaxation outcomes biases inference and is prohibited unless the design explicitly targets such outcomes and reports conditional selection.
 
 ## Stratification guidance
-Aim for coverage across trade, technology, financial sanctions and investment restrictions; Acquiescence, Adaptation, Aggregation and Resistance (non-exclusive); major periods; and jurisdictions. Because multi-coded events cannot be uniquely assigned to several exclusive strata, predeclare a deterministic primary-strategy rule **or** stratify by mutually exclusive portfolio pattern. Report sparse cells and do not fill them artificially. Consider cluster sampling by trigger episode or shared settlement to limit repeated verification; reflect clusters in analysis.
+Aim for coverage across trade, technology, financial sanctions and industrial policy (including investment restrictions); Acquiescence, Adaptation, Aggregation and Resistance (non-exclusive); major periods; and jurisdictions. Because multi-coded events cannot be uniquely assigned to several exclusive strata, predeclare a deterministic primary-strategy rule **or** stratify by mutually exclusive portfolio pattern. Report sparse cells and do not fill them artificially. Consider cluster sampling by trigger episode or shared settlement to limit repeated verification; reflect clusters in analysis.
 
 ## Full 60-day investigation workflow
 1. Load frozen event, trigger, link, and Tier 1 records; confirm the relevant US baseline from dated pre-response evidence. Preserve announced versus operative policy status.
@@ -49,3 +49,7 @@ Update the shared workbook and provide a sampling-plan manifest (frame, strata, 
 
 ## Interpretation
 Use Tier 2 to describe the joint distribution of US and Third-Nation movement and process status over a common 60-day horizon. This can strengthen **descriptive Proposition 3**, but cannot establish causal Great-Power elasticity. Do not infer causation from temporal order, official claims, or differences across strategies.
+
+## Stratification clarification for industrial policy
+
+Treat `INDUSTRIAL_POLICY` as one of four top-level US modalities; optionally predeclare sub-strata for subsidies/domestic-content/procurement/investment restrictions if sample size permits. Do not reintroduce a fifth top-level investment-restrictions modality. For differentiated Acquiescence, evaluate the named demand and national departures separately, and avoid treating contemporaneous trilateral coordination as a temporally ordered causal outcome.

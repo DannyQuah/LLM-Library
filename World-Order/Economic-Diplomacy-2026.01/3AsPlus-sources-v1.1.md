@@ -1,7 +1,7 @@
 ---
-fileName: 3AsPlus-sources-v1.0.md
-Version: 1.0
-Last-edited: 2026.10.14
+fileName: 3AsPlus-sources-v1.1.md
+Version: 1.1
+Last-edited: 2026.10.18.Sun -- Protocol revision (3AsPlus industrial-policy expansion)
 Type: Notes
 Tags:
   - 3AsPlus
@@ -10,10 +10,10 @@ Tags:
   - aggregation
   - economicDiplomacy
 Created: 2026.10.13.1705.Tue
-title: 3AsPlus-sources-v1.0
+title: 3AsPlus-sources-v1.1
 ---
 
-# 3AsPlus: Source inventory — v1.0
+# 3AsPlus: Source inventory — v1.1
 
 This is a starting source inventory for response-first and US-trigger-first research. It is not a list of sources that must all yield qualifying events. Record the *originating* outlet or agency, rather than treating a syndication host as an independent reporter. Verify dates, original text, and document-specific URLs for each accepted observation. The newly added sources below were checked on 14 October 2026 for accessible, dated, readable text; this does not establish comprehensive historical coverage or future uninterrupted access.
 
@@ -61,7 +61,7 @@ This is a starting source inventory for response-first and US-trigger-first rese
    - [Investment-security final rule, 89 FR 90398 (15 Nov 2024)](https://www.federalregister.gov/documents/2024/11/15/2024-25422/provisions-pertaining-to-us-investments-in-certain-national-security-technologies-and-products-in)
    - **Verification:** The rule's full text, issuing agency, publication information, and 2 Jan 2025 effective date were accessible. **Legal-status caveat:** FederalRegister.gov's HTML/XML rendering is an unofficial informational rendition; consult the linked official PDF on govinfo.gov where authoritative legal text matters.
 
-4. **US Department of the Treasury — Investment Security**, especially the **Outbound Investment Security Program** and the Office of Investment Security. Use for CFIUS-related material and outbound-investment restrictions, prohibitions, notification rules, and enforcement. Treat inbound CFIUS reviews and outbound investment rules as distinct mechanisms.
+4. **US Department of the Treasury — Investment Security**, especially the **Outbound Investment Security Program** and the Office of Investment Security. Use for CFIUS-related material and outbound-industrial policy, prohibitions, notification rules, and enforcement. Treat inbound CFIUS reviews and outbound investment rules as distinct mechanisms.
    - [Outbound Investment Security Program](https://home.treasury.gov/policy-issues/international/outbound-investment-program)
    - [Program Regulations](https://home.treasury.gov/policy-issues/international/outbound-investment-program/program-regulations)
    - [Program FAQs](https://home.treasury.gov/policy-issues/international/outbound-investment-program/frequently-asked-questions)
@@ -103,9 +103,20 @@ These have informed the broader framing but are not generally the sources establ
 - Record `source_outlet` (originator), `source_URL` (document-specific URL), `source_type` (official, independent news, research/commentary, legal text), publication date, and any syndication host separately.
 - Prefer the actual dated release, rule, article, or official record over an agency landing page for a coded event. A landing page is a discovery entry point, not itself event evidence.
 - Cross-check US official claims against Third-Nation official sources and independent reporting wherever feasible; sources may disagree about concessions and implementation.
-- The additional five families strengthen coverage of technology controls, financial sanctions, investment restrictions, and non-US coalition-building. They do not replace country-language sources for Asian responses.
+- The additional five families strengthen coverage of technology controls, financial sanctions, industrial policy, and non-US coalition-building. They do not replace country-language sources for Asian responses.
 - Maintain a search log of inaccessible, paywalled, missing, or undated results; do not convert failed access into a substantive zero.
 
 <!--
-   Invisible section // 3AsPlus-sources-v1.0.md
+   Invisible section // 3AsPlus-sources-v1.1.md
 -->
+
+### Additional industrial-policy sources (v1.1)
+
+- **US Treasury / Internal Revenue Service (IRS)** — Inflation Reduction Act clean-vehicle credits, final-assembly, battery, and critical-mineral guidance; consult dated notices, regulations, and individual release text at https://www.irs.gov/credits-deductions/clean-vehicle-credits and https://www.federalregister.gov/ .
+- **US Department of Energy (DOE)** — industrial supply-chain grants, loans and location/eligibility conditions: https://www.energy.gov/ .
+- **US Department of Commerce / CHIPS Program Office** — CHIPS incentives, guardrails, awards, and restrictions tied to countries of concern: https://www.nist.gov/chips .
+- **US Office of Management and Budget / federal procurement sources** — Buy American and procurement preferences, subject to evidence of external geoeconomic purpose: https://www.acquisition.gov/ .
+- **Korea MOTIE and Yonhap** — Korean government objections and negotiations concerning IRA electric-vehicle provisions; verify document-level dates and original statements.
+- **Japan METI, BIS, and Netherlands government trade authorities** — contemporaneous documents concerning 2023 semiconductor-equipment controls and trilateral understanding; assess both convergence and divergence.
+
+These are research entry points, **not claims that specific source documents were verified in this revision**. The substantive coding still requires dated document-level evidence. Investment Security sources remain relevant as an instrument subset of industrial policy.

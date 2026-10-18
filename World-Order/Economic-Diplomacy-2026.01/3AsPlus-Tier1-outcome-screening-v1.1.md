@@ -1,16 +1,16 @@
 ---
-fileName: 3AsPlus-Tier1-outcome-screening-v1.0.md
-Version: 1.0
-Last-edited: 2026.10.18.0649.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
+fileName: 3AsPlus-Tier1-outcome-screening-v1.1.md
+Version: 1.1
+Last-edited: 2026.10.18.Sun -- Protocol revision (3AsPlus industrial-policy expansion)
 Status: Proposed operational protocol; not executed
 Created: 2026.10.18.0649.Sun 
-Title: 3AsPlus-Tier1-outcome-screening-v1.0
+Title: 3AsPlus-Tier1-outcome-screening-v1.1
 ---
 
 # Tier 1: bounded interim-outcome screening for every qualifying response event
 
 ## Authority and purpose
-This is a **provisional depth-of-search addendum** to `Interim-Results-coding-v1.1.md`. It changes the *required search effort*, **not** the meanings of US Movement, Third-Nation Movement, process status, evidence of linkage, or the 60-calendar-day outcome horizon. The full protocol remains controlling for definitions. The shared workbook is `3AsPlus-US-trigger-output-format-v1.1.md`.
+This is a **provisional depth-of-search addendum** to `Interim-Results-coding-v1.2.md`. It changes the *required search effort*, **not** the meanings of US Movement, Third-Nation Movement, process status, evidence of linkage, or the 60-calendar-day outcome horizon. The full protocol remains controlling for definitions. The shared workbook is `3AsPlus-US-trigger-output-format-v1.2.md`.
 
 Tier 1 supports a broad response-side census for strategic differentiation and dynamic complementarity. It supplies partial, clearly labelled descriptive context for Great-Power responsiveness; it is **not** a completed 60-day outcome census.
 
@@ -47,3 +47,7 @@ All response events may be included in strategy frequencies. For US disposition,
 
 ## Checkpoint acceptance
 A checkpoint is accepted only when IDs and cross-sheet links validate; searches and no-yield searches are logged; source URLs are document-specific; dates and action stages are distinct; outcome ascertainment is explicit; and unresolved outcomes remain unresolved. Preserve all previously validated records and audit changes.
+
+## Industrial-policy and differentiated-acquiescence checks
+
+For `INDUSTRIAL_POLICY` triggers, distinguish US subsidy or tax-credit eligibility, domestic-content conditions, procurement rules, investment incentives, and inbound/outbound investment restrictions. Record the operative instrument and its external geoeconomic mechanism. For differentiated Acquiescence (e.g., Japan 2023), preserve both documented US coordination and national departures from US rule scope; a Tier 1 screen does not turn US praise into a verified subsequent concession. Korea's IRA objection illustrates Resistance to a discriminatory inducement.
