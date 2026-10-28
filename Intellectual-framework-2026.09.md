@@ -1,9 +1,14 @@
 ---
 fileName: Intellectual-framework-2026.09.md
-Last-edited: 2026.10.18.1634.Sun -- Danny Quah ( dq @ mbpm5-202603.local )
+Last-edited: 2026.10.28.1734.Wed-- Danny Quah (dq@msm3u-202603.local)
 Type: Notes
 Tags:
   - LLM
+  - multilateralism
+  - multilateralenough
+  - Gminus
+  - 3As
+  - 3A+
 Created: 2026.09.08.1459.Tue -- Danny Quah ( dq @ msm3u-202603.local )
 title: Intellectual-framework-2026.09
 ---
@@ -59,11 +64,12 @@ and conceptual vocabulary:
 | Concept | Role and Function |
 | :-- | :-- |
 | 3As | Acquiescence.  Adaptation.  Aggregation.   Acquiescence is yielding on the axis of contention; it can be either symbolic or substantive.  Adaptation is domestic restructuring for increased resilience.  Aggregation is coalition-building |
+| 3As+ | 3As together with Resistance as a fourth strategic modality. These we can alternatively describe as the following (acquiescence: policy accommodation, concession); (adaptation: vulnerability reduction, domestic restructuring); (aggregation: coalition formation, cooperative committment); and (resistance: contestation, challenge). |
 | Acquiescence | (detailed for RA/LLM coding) making a visible, often rhetorical, concession on a specific axis of contention.  In the case of triggering by specific trade policy a Great Power has put in place, the concession might be agreement to a purchase target, tariff-line adjustment, currency-practice review, or similar.  Look for signal language: "agreed to", "pledged to", "committed to", "will increase purchases of", "committed to review", and similar. |
 | Adaptation | (detailed for RA/LLM coding) Domestic restructuring for resilience. Government, central bank, or industry-body actions to reduce future vulnerability including subsidies, reshoring incentives, stockpiling, diversification targets, domestic content rules, industrial restructuring, and so on. Signal language: "reduce reliance on," "de-risk," "build resilience," "diversify away from," "reshoring," "stockpile." |
 | Aggregation | (detailed for RA/LLM coding) what Third Nations do strategically to construct or strengthen arrangements across one another; coalition-building especially but not exclusively in G-minus conditions (G-minus is treated further below in this table; look there as needed).  Outward coalition-building among two or more peer states, explicitly or implicitly framed as an alternative, complement, or hedge.  Must involve joint or plural action, not a single state acting alone.  Signal language: "regional alternative to", "deepen ties among", "new trade framework", "currency swap arrangement", and similar.   If triggered by US policy, the hedge is alternative to US-anchored arrangements, and signal language includes "without the United States", "regardless of Washington", and so on.|
-| 3As+ | 3As together with Resistance as a fourth strategic modality. These we can alternatively describe as the following (acquiescence: policy accommodation, concession); (adaptation: vulnerability reduction, domestic restructuring); (aggregation: coalition formation, cooperative committment); and (resistance: contestation, challenge). |
 | Epic-fail equilibria | the counterpart of Prisoner's Dilemma outcomes where, instead of the equilibrium being bad for the players but potentially good for society (the bad guy remains imprisoned), in Epic Fail the outcome is always bad for international society: countries going to war for avoidable reasons is an Epic Fail |
+| Fragmentation | not an accidentally fallen glass bowl. But two-sided; push-pull; supply-demand |
 | G-minus | institutions and behaviour remaining functional when Great Powers are not excluded but, at the same time, are also not required.  Look to G-minus especially when Great Powers are aggressive, obstructionist, distracted, or simply absent, or, alternate phrasing, inward-looking, unreliable, or unwilling to lead. |
 | hyper-multipolarity | the extreme version of multipolarity where it's not just three or four or five poles of power, but everyone is a pole of power---the distribution is flat. Contrast, Buzan's own (2023) version which he and Acharya call deep pluralism, plus his 2023 catalogue of counterparts: plurilateralism (Cerny 1993), postmodern international system (Buzan and Little 2000), heteropolarity (Der Derian 2003), no one’s world (Kupchan 2012), multinodal (Womack 2014), multiplex (Acharya 2014), decentred globalism (Buzan 2011), polymorphic globalism (Katzenstein 2012), multi-order world (Flockhart 2016). |
 | incentive compatibility |  when the desired behaviour is also each player's best response |
