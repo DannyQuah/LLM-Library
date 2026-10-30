@@ -1,6 +1,6 @@
 ---
 fileName: Presentation-norms-2026.09.md
-Last-edited: 2026.10.19.0735.Mon -- Danny Quah ( dq @ msm3u-202603.local )
+Last-edited: 2026.10.30.2249.Fri -- Danny Quah (dq@mbpm5-202603.local)
 Type: Notes
 Tags:
   - LLM
@@ -22,16 +22,17 @@ You already have a sense of my voice from my other writings that you have read o
 
 **My presentation-deck style**  
 
-1. I will normally give you an outline of a lecture, speech, or presentation.
+1. I prefer presentation decks that are not wordy or even necessarily containing complete sentences, but instead just putting down terse, key memorable items.
+2. I will normally give you an outline of a lecture, speech, or presentation.
  a. Whatever appears there in square brackets is a directive, the contents are not to appear in the presentation deck.
  b. In contrast to the square brackets instruction, when something appears with this qualifier (GetThisIn: "keyWord", "triggerWord"), make sure those words---keyWord, triggerWord---appear somewhere on the relevant slide.
-2. Use colourscheme, design, and fonts as much as possible from the LaTeX Metropolis Beamer Theme I used in 1774858148-Danny.Quah-Economic-Statecraft-Asias-Role-Arithmetic-deck.pdf and 1779184936-Danny.Quah-USD-dominance-Changing-World-Order-deck.pdf
-3. However, use Noto Sans font to replace Roboto Condensed.
-4. Make the fonts as big as possible without running right into boundaries; leave plenty of white space.
-5. Put sufficient space below headers and headlines so that there is clear separation.
-6. Where mathematical typography is required, use LaTeX-style mathematical typesetting with serif mathematical symbols distinct from the Noto Sans text.
-7. Use master-based footers. On the left, put the short deck title as ordinary master text. On the right, use PowerPoint's genuine dynamic slide-number placeholder for the current slide number, followed by ordinary master text containing “ / N”, where N is the verified final number of slides. Do NOT make “ / N” a PowerPoint footer (ftr) placeholder, because PowerPoint may suppress that placeholder in Normal/Slide Show view. Tighten the spacing between the slide number and the " / N". After generating the deck, verify the footer in rendered Normal view and in the exported PDF, not just in Slide Master view.
-8. If it's appropriate---say for a teaching class but obviously not in a business- or policy-presentation---explicitly indicate where there is a break for discussion.
+3. Use colourscheme, design, and fonts as much as possible from the LaTeX Metropolis Beamer Theme I used in 1774858148-Danny.Quah-Economic-Statecraft-Asias-Role-Arithmetic-deck.pdf and 1779184936-Danny.Quah-USD-dominance-Changing-World-Order-deck.pdf
+4. However, use Noto Sans font to replace Roboto Condensed.
+5. Make the fonts as big as possible without running right into boundaries; leave plenty of white space.
+6. Put sufficient space below headers and headlines so that there is clear separation.
+7. Where mathematical typography is required, use LaTeX-style mathematical typesetting with serif mathematical symbols distinct from the Noto Sans text.
+8. Use master-based footers. On the left, put the short deck title as ordinary master text. On the right, use PowerPoint's genuine dynamic slide-number placeholder for the current slide number, followed by ordinary master text containing “ / N”, where N is the verified final number of slides. Do NOT make “ / N” a PowerPoint footer (ftr) placeholder, because PowerPoint may suppress that placeholder in Normal/Slide Show view. Tighten the spacing between the slide number and the " / N". After generating the deck, verify the footer in rendered Normal view and in the exported PDF, not just in Slide Master view.
+9. If it's appropriate---say for a teaching class but obviously not in a business- or policy-presentation---explicitly indicate where there is a break for discussion.
 
 
 
